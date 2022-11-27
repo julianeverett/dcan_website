@@ -1,0 +1,88 @@
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+        {{ range ( where .Data.Pages "Type" "team" )  }}
+        <article>
+
+          <div class="card mb-3">
+            <div class="card-header text-center">
+              <h2 class="card-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            </div>
+
+            <div class="card-body">
+              <div class="row">
+                {{ with .Params.image }}
+                <div class="col-md-5">
+                  <img class="img-fluid rounded-start" src="{{ . | absURL }}" alt="post-image" />
+                </div>
+                {{ end }}
+                <div class="col-md-7">
+                  <div class="card-text">
+                    {{ with .Params.organizer }}<span>by {{ . }}</span>{{ end }}
+                      <b><big>Organizer(s):</big></b><br>
+                      {{ range $index, $element:= .Params.organizers }}
+                      <!-- {{ with .title }}<span><small><em><b>{{ . }}:</b></em></small></span><br>{{ end }} -->
+                      {{ with .name }}<span>● {{ . }}</span>{{ end }}
+                      {{ with .email }}<span><a href="mail_to:{{ . }}">{{ . }}</a></span>{{ end }}
+                      <!-- {{ with .intro }}<br><span><em>{{ . }}</em></span>{{ end }} -->
+                      <br>
+                    {{ end }}
+                  </div>
+                <!-- </div> -->
+              <!-- </div> -->
+
+              <!-- <div class="row"> -->
+                <!-- <div class="col-md-10 mt-3"> -->
+                  <p class="card-text">
+                    {{ with .Params.synopsis }}
+                      <!-- <b><big>Summary:</big></b> -->
+                      <br>
+                      {{ . }}
+                    {{ end }}
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">
+                    </small>
+                  </p>
+                  <div>
+                    {{ with .Permalink }}
+                    <a href="{{ . }}" class="btn btn-small">Read More ...</a>
+                    {{ end }}
+                  </div>
+                  <p class="blog-meta">
+                    <small class="text-muted">
+                      <!-- {{ with .Params.Date }}<span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>{{ end }} -->
+                      <!-- {{ with .Params.tags }}<span><b>Tags</b>: {{ delimit . ", " }}</span>{{ end }} -->
+                    </small>
+                  </p>
+                  <div class="blog-meta">
+                    <small class="text-muted">
+                      <!-- {{ with .Params.Date }}<span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>{{ end }} -->
+                      <!-- {{ with .Params.tags }}<span><b>Tags</b>: {{ delimit . ", " }}</span>{{ end }} -->
+                      <!-- {{ with .Params.areas }}<span><b>Areas Active</b>: {{ delimit . ", " }}</span>{{ end }} -->
+                      <!-- {{ with .Params.categories }}<br><span><b>Activities</b>: {{ delimit . ", " }}</span>{{ end }} -->
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="card-footer text-center">
+              {{ with .Params.externalUrl }}
+                <p>
+                  <b><big>Site: </big><a href="{{ . | absURL }}" target="_blank">{{ . | absURL }}</a></b>
+                </p>
+              {{ end }}
+            </div> -->
+
+          </div>
+
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

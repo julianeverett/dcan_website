@@ -1,0 +1,23 @@
+---
+enable: true
+title: Our Projects
+introEnable: true
+introTitle: Making things better
+introSubtitle: Accomplishing climate and environmental action
+introText: Help a project that inspires you
+summaryEnable: false
+summaryItems:
+- title: Climate Action Groups for Individuals
+  link: "/group_local"
+  icon: ion-ios-lightbulb-outline
+  description: Individual members engaged in climate and environment activities -
+    see the list below
+- title: Network & Support for Member Groups
+  link: "/network"
+  icon: ion-ios-flask-outline
+  description: Support other local climate and environment groups with aligned goals
+- title: Local council climate and environment action
+  link: "/activity_council"
+  icon: ion-ios-barcode-outline
+  description: Support Dorset Council, BCP Council and town and parish councils in
+    their efforts to adapt to climate change and build community resilience.

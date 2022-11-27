@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<!-- {{ if .Site.Data.join.enable }} -->
+<div class="container" id="feature">
+  {{ partial "join/intro.html" . }}
+
+  {{ with .Site.Data.join.joinText }}
+  <div class="row d-flex justify-content-center">
+    <div class="col-10">
+    {{ . | safeHTML }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+<!-- {{ end }} -->
+
+{{ partial "cta.html" . }}
+{{ end }}

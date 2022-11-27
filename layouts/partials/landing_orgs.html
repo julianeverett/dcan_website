@@ -1,0 +1,41 @@
+<!-- {{ if .Site.Params.orgs.orgsEnable }} -->
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section id="team_member">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-12">
+        {{ with .Site.Params.orgs.orgsTitle }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+      </div>
+      {{ range $index, $element:= .Site.Params.orgs.organisations }}
+        <div class="card col-sm-6 col-md-3 col-lg-3 border-0">
+          {{ with .image }}<img src="{{ . | absURL }}" class="card-img-top" alt="team member avatar">{{ end }}
+          <div class="card-body">
+            {{ with .name }}<h5 class="card-title">{{ . }}</h5>{{ end }}
+            {{ with .designation }}<span class="team_member_designation"><small>{{ . }}</small></span><br>{{ end }}
+            {{ with .email }}<span class="text-muted"><small><b>email: &nbsp;</b><a href="mailto:{{ . }}">{{ . }}</a></small></span><br>{{ end }}
+            {{ with .description }}<p class="card-text text-muted mt-2">{{ . }}</p>{{ end }}
+            <p class="social-icons">
+              {{ with .facebook }}
+              <a href="{{ . }}" class="facebook" target="_blank">
+                <i class="ion-social-facebook-outline"></i>
+              </a>
+              {{ end }}
+              {{ with .twitter }}
+              <a href="{{ . }}" target="_blank">
+                <i class="ion-social-twitter-outline"></i>
+              </a>
+              {{ end }}
+              {{ with .linkedIn }}
+              <a href="{{ . }}" target="_blank">
+                <i class="ion-social-linkedin-outline"></i>
+              </a>
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+<!-- {{ end }} -->

@@ -1,0 +1,53 @@
+{{ if .Site.Data.network.membersEnable }}
+{{ "<!-- Feature Section Start -->" | safeHTML }}
+<section>
+  <div class="container">
+    <div class="section-heading mb-2">
+      {{ with .Site.Data.network.membersTitle }}
+        <h1>{{ . }}</h1>
+      {{ end }}
+      {{ with .Site.Data.network.membersSubtitle }}
+      <h4>
+        {{ . }}
+      </h4>
+      {{ end }}
+      {{ with .Site.Data.network.membersDescription }}
+      <p>
+        {{ . | safeHTML }}
+      </p>
+      {{ end }}
+    </div>
+
+    {{ range $index, $element := .Site.Data.network.members }}
+    {{ $delay := mul (add $index 1) 100 }}
+    <div class="row">
+      <div class="card mb-3 w-100">
+        <div class="row g-0 bg-light">
+          <div class="col-md-4 d-flex flex-wrap align-items-center justify-content-center">
+            {{ with .image }}
+              <!-- <img src="{{ . | absURL }}" class="img-fluid rounded-start" style="object-fit: cover" alt="image for group"> -->
+              <img src="{{ . | absURL }}" class="img-fluid center-block d-block mx-auto" style="object-fit: cover" alt="image for group">
+            {{ end }}
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ .name }}
+                {{ with .webSite }}
+                <br>
+                <small class="text-muted"><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></small>
+                {{ end }}
+              </h5>
+              {{ with .description }}<p class="card-text">{{ . | safeHTML }}</p>{{ end }}
+              <!-- {{ with .link }}<p class="card-text"><b><a href="{{ . }}">{{ . }}</a></b></p>{{ end }} -->
+              {{ with .email }}<p class="card-text"><small class="text-muted"><a href="email:{{ . }}">{{ . }}</a></small></p>{{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ "<!-- Feature Section End -->" | safeHTML }}
+{{ end }}

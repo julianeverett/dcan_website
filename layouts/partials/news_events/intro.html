@@ -1,0 +1,49 @@
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<!-- <div class="container" id="feature"> -->
+
+  {{ if .Site.Data.news_events.introEnable }}
+    {{ with .Site.Data.news_events.introTitle }}
+    <div class="row d-flex justify-content-center">
+      <h2 class="title">{{ . }}</h2>
+    </div>
+    {{ end }}
+    {{ with .Site.Data.news_events.introSubtitle }}
+    <div class="row d-flex justify-content-center">
+      <!-- <h4 class="sub-title">{{ . }}</h4> -->
+      <p><b>{{ . }}</b></p>
+    </div>
+    {{ end }}
+    {{ with .Site.Data.news_events.introText }}
+    <div class="row d-flex justify-content-center">
+      {{ . | safeHTML }}
+    </div>
+    {{ end }}
+    <div class="mb-3">
+      <!-- spacer row - since it isn't clear how many of these rows will exist -->
+    </div>
+  {{ end }}
+
+  {{ if .Site.Data.news_events.summaryEnable }}
+    <div class="row d-flex justify-content-center">
+      {{ range $index, $element := .Site.Data.news_events.summaryItems }}
+      <div class="col-sm-12 col-lg-6">
+        {{ $delay := mul (add $index 1) 300 }}
+        <div class="media">
+          <div class="media-left">
+            <div class="icon">
+              {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+            </div>
+          </div>
+          <div class="media-body">
+            {{ with .title }}<h4 class="media-heading">{{ . }}</h4>{{ end }}
+            {{ with .description }}<p>{{ . }}</p>{{ end }}
+            {{ with .link }}<p class="card-text"><a href="{{ . }}">Lean more ...</a></p>{{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+<!-- </div> -->
+{{ "<!-- Team Section End -->" | safeHTML }}

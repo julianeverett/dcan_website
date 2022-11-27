@@ -1,0 +1,32 @@
+<h4 class="title">NEWS</h4>
+
+{{ range ( first 20 ( where .Site.Pages "Type" "news" ).ByDate.Reverse ) }}
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+
+    {{ with .Params.image }}
+    <div class="col-md-4">
+      <img class="img-fluid rounded-start" src="{{ . | absURL }}" alt="post-image" />
+    </div>
+    {{ end }}
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+        <p class="card-text">
+          {{ with .Params.date }}Date: <b>{{ .Format "Jan 2, 2006" }}</b>{{ end }}<br>
+          {{ with .Params.author }}Author: <b><large>{{ . }}</large></b>{{ end }}
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row no-gutters">
+    <p class="card-text mt-1 mb-2 ml-3">
+      <!-- <b>Summary:</b>  -->
+      {{ .Params.synopsis }}</p>
+  </div>
+</div>
+
+{{ end }}

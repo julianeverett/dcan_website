@@ -1,0 +1,15 @@
+---
+enable: true
+contactFormTitle: CONTACT US
+contactFormSubtitle: 'Fill out the form and we will be in touch. '
+officeAddress1:
+officeAddress2:
+mail1:
+mail2:
+phone1:
+phone2:
+showMap: false
+infoTitle: FIND US
+infoSubtitle: Get in touch
+infoImage: images/logo/dcan_logo.jpg
+infoText: We are always interested in your ideas ... <br><br> Join us!

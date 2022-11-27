@@ -1,0 +1,34 @@
+<!-- Main Content Article -->
+{{ with .Params.image }}
+<div class="post-img">
+  <img class="img-fluid mx-auto d-block" alt="" src="{{ . | absURL }}">
+</div>
+{{ end }}
+<article class="post-content mt-6">
+  {{ .Content }}
+
+  {{ with .Params.how_n_why }}
+    {{ "<!-- how and why Start -->" | safeHTML }}
+    <section id="team_member" class="mb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          {{ range $index, $element:= . }}
+            <!-- <div class="row"> -->
+              <div class="card m-3 col-md-5 alert-success ">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .title }}</h5>
+                      <p class="card-text">{{ .text | safeHTML }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ "<!-- how and why -->" | safeHTML }}
+  {{ end }}
+</article>

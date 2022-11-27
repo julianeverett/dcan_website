@@ -1,0 +1,39 @@
+{{ "<!-- Team Section Start -->" | safeHTML }}
+{{ if .Site.Data.newsletters.caseStudiesEnable }}
+
+<h5 class="title">Case-Studies</h5>
+
+{{ range first 20 (sort (.Site.Data.newsletters.caseStudiesList) ".caseDate" "desc") }}
+<div class="card mb-3" style="max-width: 540px;">
+
+  <div class="row no-gutters">
+    {{ with .caseImage }}
+    <div class="col-md-4">
+      <img class="img-fluid rounded-start" src="{{ . | absURL }}" alt="post-image" />
+    </div>
+    {{ end }}
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ .caseLink }}">{{ .caseTitle }}</a></h5>
+        {{ with .caseAuthor }}<h6 class="card-subtitle">by: {{ . }}</h6>{{ end }}
+        {{ with .caseDate }}<p class="card-text mb-2 ml-3"><b>Date:</b> {{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row no-gutters">
+    <p class="card-text mt-2 mb-2 ml-3">
+      {{ with .caseSummary }}
+      <!-- <b>Summary:</b>  -->
+      {{ . }}
+      <br>
+      {{ end }}
+      <a class="btn btn-outline-info btn-sm" href="{{ .caseLink }}" target="_blank">Read Study</a>
+    </p>
+  </div>
+
+</div>
+{{ end }}
+{{ end }}
+{{ "<!-- Team Section Start -->" | safeHTML }}

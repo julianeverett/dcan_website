@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<section class="single-post pt-5">
+
+  <div class="container mt-0">
+    <div class="section-heading">
+      <h2 class="title">{{ .Title }}</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ with .Params.image }}
+        <div class="post-img">
+          <img class="img-fluid" alt="" src="{{ . | absURL }}">
+        </div>
+        {{ end }}
+        <div>
+          {{ partial "teams/team_list.html" . }}
+        </div>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <!-- sidebar -->
+        <div class="work-single-sidebar">
+          <h4>{{ .Title }}</h4>
+
+          {{ with .Params.synopsis }}
+          <h5>Synopsis:</h5>
+          <p><small>{{ . }}</small></p>
+          {{ end }}
+
+          {{ partial "related.html" . }}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}

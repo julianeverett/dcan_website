@@ -1,0 +1,142 @@
+baseURL = "/"
+languageCode = "en-us"
+paginate = 9
+relativeurls = true
+summaryLength = "150"
+theme = "timer-hugo"
+title = "DCAN | Dorset Climate Action Network"
+[[menu.main]]
+name = "Our Network"
+url = "network"
+weight = 3
+[[menu.main]]
+name = "Join Us"
+url = "join"
+weight = 6
+[[menu.main]]
+name = "Projects"
+url = "projects"
+weight = 5
+[[menu.main]]
+name = "About Us"
+url = "about"
+weight = 1
+[[menu.main]]
+name = "News & Events"
+url = "news_events"
+weight = 4
+[[menu.main]]
+name = "Teams"
+url = "teams"
+weight = 2
+[params]
+author = "Dorset CAN"
+contactFormAction = "#"
+dateFormat = "6 January 2006"
+description = "Dorset Climate Alliance Network"
+googleAnalitycsID = "Your ID"
+home = "Home"
+logo = "/uploads/dorset-can-logo-3000px.png"
+[params.about]
+content = "<p>DorsetCAN (Dorset Climate Action Network) is a network of community groups and individuals working together for a shared vision of a clean, green, sustainable Dorset.<br>We support, work with and lobby Dorset Council; Bournemouth, Christchurch and Poole Council; town and parish councils and local community groups across Dorset. We also organise and run our own campaigns and events, support and publicise campaigns run by members and act as a clearinghouse for news of relevant events, projects and schemes.</p>"
+enable = true
+image = "/uploads/bluebell-wood.jpg"
+title = "How we help"
+[params.banner]
+bgImage = "/uploads/thorncombe5.png"
+btn = true
+btnText = "Contact Us"
+btnURL = "contact"
+description = "Inspiring community-led action for a fairer, healthier, greener Dorset"
+enable = true
+heading = "Dorset Climate Action Network"
+[[params.banner.flipText]]
+title = "Zero Carbon"
+[[params.banner.flipText]]
+title = "Bright Blue"
+[[params.banner.flipText]]
+title = "Wild Green"
+[[params.banner.flipText]]
+title = "Locally Fed"
+[[params.banner.flipText]]
+title = "Community Centred"
+[[params.banner.flipText]]
+title = "Sparkling Clean"
+[params.cta]
+btnText = "Contact Us"
+btnURL = "/contact"
+content = "Let us know what you are thinking!"
+enable = true
+title = "Questions / Interested?"
+[params.orgs]
+orgsEnable = false
+orgsTitle = "Supporting Organisations"
+[[params.orgs.organisations]]
+description = "Awesome Pizza from locally supplied, sustainable ingredients."
+designation = "Business Supporter"
+email = "info@conatiner4.ch"
+facebook = "https://www.facebook.com/DorsetCAN/"
+image = "images/team-member/Katherine.webp"
+linkedIn = "https://www.linkedin.com/company/container4"
+name = "Joe's Pizza"
+twitter = "https://www.twitter.com/themefisher"
+[[params.orgs.organisations]]
+description = "Sustainable and affordable transport"
+designation = "Government Collaborator"
+email = ""
+facebook = ""
+image = "images/team-member/Eric-2x.webp"
+linkedIn = ""
+name = "Dorset Transport"
+twitter = ""
+[[params.orgs.organisations]]
+description = "We love sustainable food!"
+designation = "Specializing in equipment that simplifies diversity and organics"
+email = ""
+facebook = ""
+image = "images/team-member/Jasmine_2_1.webp"
+linkedIn = ""
+name = "Martina's Farm Equipment"
+twitter = ""
+[params.team]
+enable = true
+subtitle = "Find one you enjoy!"
+title = "Action Teams"
+[params.vision]
+visionEnable = true
+visionImage = "/uploads/thornecombe-sheep.jpg"
+visionSubtitle = "Building a hopeful future by working together, sharing ideas and inspiring action"
+visionTitle = "Our Vision"
+[[params.vision.visionItems]]
+description = "the whole county (council, businesses and residents) has stopped causing further climate overheating with carbon emissions from our homes, buildings, cars and energy use.\n"
+title = "Zero Carbon"
+[[params.vision.visionItems]]
+description = "      every river and stream and beach in Dorset is safe to swim or play in. (Currently our rivers and seas are amongst the most polluted in Europe).\n"
+title = "Bright Blue"
+[[params.vision.visionItems]]
+description = "chemical pesticides, fungicides and herbicides are no longer used and tree-planting, meadow and heathland regeneration and spreading hedgerows allow the wild things to live and regenerate across the county.\n"
+title = "Wild Green"
+[[params.vision.visionItems]]
+description = "communities grow food locally and more and more schools, care homes, businesses, restaurants, cafés and private homes use locally grown food.\n"
+title = "Locally Fed"
+[[params.vision.visionItems]]
+description = "people of all ages, incomes and backgrounds can afford to live and participate equally in active local communities with schemes for sharing, repairing and recycling and public transport every hour.\n"
+title = "Community Centred"
+[[params.vision.visionItems]]
+description = "radically reduced levels of air pollution and litter alongside a complete halt to selling and using single-use plastics.\n"
+title = "Sparkling Clean"
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "https://www.facebook.com/DorsetCAN/"
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "https://twitter.com/dorset_can"
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "https://www.instagram.com/dorset_can/"
+[[params.socialIcon]]
+icon = "ion-social-snapchat"
+url = "https://www.snapchat.com/add/dorset_can"
+[taxonomies]
+category = "categories"
+tag = "tags"

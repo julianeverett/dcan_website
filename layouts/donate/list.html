@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.donate.enable }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+
+<section>
+  <div class="container">
+
+    <div class="section-heading mb-2">
+      {{ with .Site.Data.donate.introTitle }}
+      <br>
+      <h2 class="title">{{ . }}</h2>
+      {{ end }}
+      {{ with .Site.Data.donate.introSubtitle }}
+      <p style="font-size: 1.2rem;">
+        <b>{{ . }}</b>
+      </p>
+      {{ end }}
+    </div>
+
+    <div class="row mt-2">
+
+      <div class="col-md-6">
+        <div id="789859824754989193" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+          <script src="https://donorbox.org/widget.js" paypalexpress="false"></script>
+          <iframe src="https://donorbox.org/embed/grow-dorsetcan" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height: none !important; height: 644px;" data-donorbox-id="DonorBox-f1">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        {{ with .Site.Data.donate.donateText }}
+        <p>{{ . | safeHTML }}</p>
+        {{ end }}
+        {{ with .Site.Data.donate.donateImage }}
+          <div class="block">
+            <img class="img-fluid" src="{{ . | absURL }}" alt="about-image">
+          </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ "<!-- Contact Section End -->" | safeHTML }}
+{{ end }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}

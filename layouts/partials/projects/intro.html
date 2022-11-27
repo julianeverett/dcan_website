@@ -1,0 +1,47 @@
+{{ "<!-- Team Section Start -->" | safeHTML }}
+
+  {{ if .Site.Data.projects.introEnable }}
+    <!-- {{ with .Site.Data.projects.introTitle }}
+    <div class="row d-flex justify-content-center">
+      <h2 class="title">{{ . }}</h2>
+    </div>
+    {{ end }} -->
+    {{ with .Site.Data.projects.introSubtitle }}
+    <div class="row d-flex justify-content-center">
+      <h3 class="title">{{ . }}</h3>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Data.projects.introText }}
+    <div class="row d-flex justify-content-center text-muted" style="font-size: 1.2em;">
+      {{ . | safeHTML }}
+    </div>
+    {{ end }}
+    <div class="mb-3">
+      <!-- spacer row - since it isn't clear how many of these rows will exist -->
+    </div>
+  {{ end }}
+
+  {{ if .Site.Data.projects.summaryEnable }}
+  <div class="row d-flex justify-content-center">
+    {{ range $index, $element := .Site.Data.projects.introItems }}
+    <div class="col-sm-12 col-lg-4">
+      {{ $delay := mul (add $index 1) 300 }}
+      <div class="media">
+        <div class="media-left">
+          <div class="icon">
+            {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+          </div>
+        </div>
+        <div class="media-body">
+          {{ with .title }}<h4 class="media-heading">{{ . }}</h4>{{ end }}
+          {{ with .description }}<p>{{ . }}</p>{{ end }}
+          {{ with .link }}<p class="card-text"><a href="{{ . }}">Lean more ...</a></p>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+{{ "<!-- Team Section End -->" | safeHTML }}

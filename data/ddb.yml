@@ -1,0 +1,185 @@
+type: project
+projectTitle: Dorset Deserves Better
+description: Providing coordination for Dorset CAN
+email: dorsetdeservesbetter@gmail.com
+synopsis: '<b>Dorset Deserves Better (DDB)</b> is an alliance to suggests ways to transform the the widely criticised <i>Dorset Local Plan of March 2021</i> into a visionary programme that enriches the county and serves the people of Dorset - especially the young and those most in need.'
+image: uploads/tim-swaan-eOpewngf68w-unsplash_nature_bridge.jpg
+menuEnable: true
+menuItems:
+- title: Overview
+  link: /ddb
+- title: Actions & Newsletters
+  link: /ddb/actions_newsletters
+- title: Alliance
+  link: /ddb/alliance
+- title: Contact
+  link: https://dorsetcan.us6.list-manage.com/subscribe?u=b44a7957792302591902366d7&id=a0b486bc06
+caption: Climate Action - making things happen
+news: Portland Town Council's is the latest council to formally support the (DDB) campaign.
+categories:
+- Town Planning
+- ECO Planning
+organizers:
+- name: Colin Tracey
+  email: dorsetcan@gmail.com
+  title:
+- name: Rob Waitt
+  email: dorsetcan@gmail.com
+  title:
+- name: Vicki Elcoate
+  email: dorsetcan@gmail.com
+  title:
+alliance:
+- name: Action for Alderholt
+  link: https://action4alderholt.org.uk/
+  image:
+  email:
+- name: Arne Parish Council
+  link: https://arne-parish-council.sycl.net/1/arne-parish
+  image:
+  email:
+- name: Beaminster Area ECO Group
+  link: https://beaminstereco.wixsite.com/beaminstereco
+  image:
+  email:
+- name: Charmouth Green Group
+  link:
+  image:
+  email:
+- name: Cheselbourne Parish Council
+  link: http://www.cheselbournepc.org.uk/community/cheselbourne-parish-council-7854/home#
+  image:
+  email:
+- name: Corscombe, Halstock and District Parish Council
+  link: https://chdpc.org.uk/
+  image:
+  email:
+- name: Dorset Climate Action Network
+  link: https://www.dorsetcan.org/
+  image:
+  email:
+- name: The Erica Trust
+  link: https://briantspuddle.info/the-erica-trust/
+  image:
+  email:
+- name: Friends of the Earth East Dorset
+  link: https://eastdorsetfriendsoftheearth.org.uk/
+  image:
+  email:
+- name: Friends of the Earth West Dorset
+  link: https://www.westdorsetfriendsoftheearth.org.uk/
+  image:
+  email:
+- name: Green Martinstown
+  link: https://www.greenmartinstown.org.uk/community/green-martinstown-18656/home/
+  image:
+  email:
+- name: Group of Wool Households
+  link:
+  image:
+  email:
+- name: Hilfield Friary
+  link: https://www.hilfieldfriary.org.uk/
+  image:
+  email:
+- name: Just a Good Village, Sturminster Marshall
+  link:
+  image:
+  email:
+- name: Keep Corfe Mullen Green
+  link: https://www.facebook.com/groups/359565477551125/
+  image:
+  email:
+- name: Keep Stur Course, Sturminster
+  link:
+  image:
+  email:
+- name: Langton Planet Action
+  link:
+  image:
+  email:
+- name: Lytchett Matravers Parish Council
+  link: https://lytchettmatraverspc.org/
+  image:
+  email:
+- name: 'Lytchett Matravers: The Dorset Local Plan Facebook Group'
+  link:
+  image:
+  email:
+- name: Planet Purbeck
+  link: https://planetpurbeck.org/
+  image:
+  email:
+- name: Planet Shaftesbury
+  link: https://www.planetshaftesbury.org/
+  image:
+  email:
+- name: Planet Wimborne
+  link: http://www.planetwimborne.org/
+  image:
+  email:
+- name: Portland 4 The Planet
+  link: https://www.facebook.com/portland4theplanet/
+  # link: https://portland4theplanet.org/
+  image:
+  email:
+- name: Purbeck Transport Action Group
+  link: https://www.helpandkindness.co.uk/organisations/2408/purbeck-transport-action-group
+  image:
+  email:
+- name: STAND (Save the Area North of Dorchester)
+  link: https://stand-dorchester.net/
+  image:
+  email:
+- name: Stinsford Parish Council
+  link: http://www.stinsford.org.uk/community/stinsford-parish-council-7769/home
+  image:
+  email:
+- name: Stop Portland Waste Incinerator
+  link: https://stopportlandwasteincinerator.co.uk/
+  image:
+  email:
+- name: Threshold Centre Co-housing Community, Gillingham
+  link: http://www.thresholdcentre.org.uk/
+  image:
+  email:
+- name: Transition Town Bridport
+  link: http://www.transitiontownbridport.co.uk/content/
+  image:
+  email:
+- name: Transition Town Dorchester
+  link: http://transitiontowndorchester.org/
+  image:
+  email:
+- name: Trees for Dorset
+  link: http://treesfordorset.co.uk/
+  image:
+  email:
+- name: University and College Union of Bournemouth University
+  link:
+  image:
+  email:
+- name: Western Area Transport Action Gisroup
+  link: https://watag.org.uk/
+  image:
+  email:
+- name: Wimborne Minster Environment Group
+  link: http://www.wimborneminster.org.uk/131/environmental-group.html
+  image:
+  email:
+- name: Wool Flora and Fauna
+  link:
+  image:
+  email:
+- name: XR Dorset
+  link: https://xrsw.uk/groups/dorset/
+  image:
+  email:
+- name: XR Bournemouth, Christchurch and Poole
+  link: https://rebellion.global/groups/gb-bournemouth-christchurch-poole/#events
+  image:
+  email:
+- name: Zero Carbon Dorset
+  link: https://www.dorset2030.com/
+  image:
+  email:

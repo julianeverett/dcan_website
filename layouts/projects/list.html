@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.projects.enable }}
+<div class="container pt-5" id="feature">
+  {{ partial "projects/intro.html" . }}
+  {{ partial "projects/projects_list.html" . }}
+</div>
+{{ end }}
+
+{{ partial "cta.html" . }}
+{{ end }}

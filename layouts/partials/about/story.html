@@ -1,0 +1,29 @@
+{{ if .Site.Data.about.storyEnable }}
+{{ "<!-- Company Description Section Start -->" | safeHTML }}
+<section class="company-description pb-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {{ with .Site.Data.about.storyImage }}
+        <img src="{{ . | absURL }}" alt="" class="img-fluid">
+        {{ end }}
+      </div>
+      <div class="col-md-6">
+        <div class="block">
+          {{ with .Site.Data.about.storyTitle }}
+          <h3 class="subtitle">
+            {{ . }}
+          </h3>
+          {{ end }}
+          {{ with .Site.Data.about.ourStory }}
+          <p>
+            {{ . | safeHTML }}
+          </p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+{{ end }}

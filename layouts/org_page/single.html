@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single pt-5">
+
+  <div class="container mt-0">
+    <div class="section-heading">
+      <h2 class="title">{{ .Title }}</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        {{ with .Params.image }}
+        <div class="work-single-image">
+          <!-- Work Single Image -->
+          <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
+        </div>
+        {{ end }}
+        <!-- work single Content -->
+        {{ with .Content }}
+        <div class="work-single-content">
+          {{ . }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-4">
+        <!-- sidebar -->
+        <div class="work-single-sidebar">
+          <h4>{{ .Title }}</h4>
+          {{ with .Params.externalUrl }}
+            <p><big><b>Site: </b></big><a href="{{ . | absURL }}" target="_blank">{{ . | absURL }}</a></p>
+          {{ end }}
+          {{ with .Params.organizer }}<span>by {{ . }}</span>{{ end }}
+          <h5>Organizer(s):</h5>
+          <p><small>
+          {{ range $index, $element:= .Params.organizers }}
+            <!-- {{ with .title }}<span><b>{{ . }}:</b></span><br>{{ end }} -->
+            {{ with .name }}<span>● {{ . }}</span>{{ end }}
+            {{ with .email }}<span><a href="mail_to:{{ . }}">{{ . }}</a></span>{{ end }}
+            <br>
+          {{ end }}
+          </small></p>
+          {{ with .Params.categories }}
+          <h5>Activities:</h5>
+          <p><small>{{ delimit . ", " }}</small></p>
+          {{ end }}
+          {{ with .Params.synopsis }}
+          <h5>Synopsis:</h5>
+          <p><small>{{ . }}</small></p>
+          {{ end }}
+
+          {{ partial "related.html" . }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+
+{{ partial "cta.html" . }}
+
+{{ end }}

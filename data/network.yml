@@ -1,0 +1,510 @@
+---
+enable: true
+title: Our Network
+
+descriptionEnable: true
+descriptionTitle:
+description: Organisational members of DorsetCAN Providing an umbrella network for
+  likeminded groups across Dorset
+descriptionImage: images/logo/Dorset_CAN_Logo_Original.jpg
+
+purposeEnable: false
+purposeTitle: Our Network
+purposeSubtitle: Dorset-CAN is an affiliate of the Climate Action Network
+purposeStatement:
+
+mapEnable: true
+mapTitle:
+mapSubtitle: 'Connecting Climate Groups - Networking for greater effectiveness'
+mapText:
+
+membersEnable: true
+membersTitle:
+membersSubtitle: Organisational members of DorsetCAN
+membersDescription: Providing an umbrella network for likeminded groups across Dorset
+members:
+- name: Efeca
+  description: Efeca, a Dorset based micro natural resources company, provides specialised
+    consulting advice on responsible sourcing, sustainable trade and use of natural
+    resources including palm oil, timber, soya, sugar and coffee. A Tropical Forest
+    Alliance partner & World Economic Forum preferred supplier. Efeca has accumulated
+    broad experience working in over 30 countries, across agricultural and forest
+    risk commodities.
+  webSite: 'http://www.efeca.com'
+  email: 'lucy.cullinane@efeca.com'
+  image: "/uploads/efeca.png"
+  group: sustainability
+  latitude: 50.7488
+  longitude: -2.3445
+  popupText:
+- name: Cheselbourne Climate Action Group
+  description: Small village conservation group based near Dorchester
+  webSite: ''
+  email: carolbyrom1@gmail.com
+  image: "/uploads/cheselbourne-climate-action-group.png"
+  group: climate
+  latitude: 50.8002
+  longitude: -2.3413
+  popupText:
+- name: Bridport Area Community Housing
+  description: BACH is a registered Community Benefit Society established in 2020.
+    Our aim is to inspire and implement solutions to the provision of affordable housing
+    for those members of the Bridport Area community in genuine need.  Relieving homelessness
+    and housing.
+  webSite: 'https://www.bridportach.org.uk'
+  email: 'info@bridportach.org.uk'
+  image: "/uploads/bridport-area-community-housing.png"
+  group: housing
+  latitude: 50.7336
+  longitude: -2.7583
+  popupText:
+- name: Advantage Digital Print Ltd
+  description: Based in Dorchester. The company uses digital printing, which is cleaner
+    than traditional forms of printing. Digital presses emit few or no VOCs (Volatile
+    Organic Chemicals). Advantage Digital Print is a certified member of Woodland
+    Carbon - an initiative that enables it to participate in actively removing carbon
+    emissions from the atmosphere through UK tree planting activities.
+  webSite: https://www.advantagedigitalprint.com/
+  email: ''
+  image: "/uploads/adp.png"
+  group: business
+  latitude: 50.7112
+  longitude: -2.4412
+  popupText:
+- name: Beaminster Area ECO Group
+  description: |-
+    We work to raise awareness of climate change, loss of wildlife and related issues in Beaminster and surrounding villages.
+    They promote action to strengthen the social, economic and environmental resilience of this area.
+  webSite: https://beaminstereco.wixsite.com/beaminstereco
+  email: ''
+  image: "/uploads/beaminster-area-eco-group.png"
+  group: climate
+  latitude: 50.8102
+  longitude: -2.7432
+  popupText:
+- name: Blandford War on Waste/Clean Up Blandford Campaign
+  description: We are working towards acquiring Plastic Free Town status for Blandford,
+    in addition to encouraging and promoting a more sustainable lifestyle for Blandford's
+    businesses and residents.
+  webSite: https://www.facebook.com/BlandfordWOW/
+  email: blandfordwaronwaste@gmail.com
+  image: "/uploads/blandford-war-on-waste.png"
+  group: waste
+  latitude: 50.8569
+  longitude: -2.1654
+  popupText:
+- name: Bridport Food Matters
+  description: 'Bridport Food Matters aims to be a catalyst for positive change and
+    a provider of information on food matters in the Bridport area. We are a network
+    partnership between Bridport Local Food Group, Seeding our Future and Transition
+    Town Bridport. Priorities include increasing local production and demand, affordable
+    access, healthy eating, sustainable cultivation methods, and food security in
+    response to climate change.'
+  webSite: https://www.bridportfoodmatters.net
+  email: bridportfoodmatters@gmail.com
+  image: "/uploads/bridport-food-matters.png"
+  group: food
+  latitude: 50.7336
+  longitude: -2.7583
+  popupText:
+- name: Bridport Town Council
+  description: |-
+    A local council providing a wide range of services and representing the town on all matters affecting Bridport and West Bay.
+    The Town Council declared a Climate Emergency in May 2019 and has produced a Climate Action Plan. It manages the delivery of the 70+ actions in the plan through a dedicated Sub Committee, and has recruited a Project Manager to drive the actions forward.
+  webSite: https://www.bridport-tc.gov.uk
+  email: ''
+  image: "/uploads/bridport-town-council.png"
+  group: government
+  latitude: 50.7336
+  longitude: -2.7583
+  popupText:
+- name: Chardstock Eco Group
+  description: Chardstock Eco Group has a range of ongoing projects, including The
+    Chardstock Womblers - litter pickers, a tree planting programme, ongoing monitoring
+    of The River Kit and the Parish's special & veteran trees, promoting the weeds
+    and wildflowers of the parish, a new bat survey & developing a resilience & sustainability
+    plan for the village following flash flooding. We'd love to hear from you if you
+    live locally.
+  webSite: https://www.facebook.com/groups/chardstockecogroup
+  email: vicky@essenceconsulting.co.uk
+  image: "/uploads/chardstock-eco-group.png"
+  group: enivironment
+  latitude: 50.8351
+  longitude: -2.9809
+  popupText:
+- name: Dorchester Town Council
+  description: |-
+    Dorchester's local authority.
+    'We have announced a climate crisis and have made improvements to lessen our impact on the planet. We have also employed a graduate role that works on projects to do with climate and environment.'
+    Visit our website for more information.
+  webSite: https://www.dorchester-tc.gov.uk/
+  email: ''
+  image: "/uploads/dorchester-town-council.png"
+  group: government
+  latitude: 50.7112
+  longitude: -2.4412
+  popupText:
+- name: Dorchester Yoga and Therapy Centre
+  description: The centre has a wide range of classes and courses covering yoga, meditation,
+    pilates, tai chi and more.
+  webSite: https://dorchesteryoga.co.uk
+  email: info@dorchesteryoga.co.uk
+  image: "/uploads/dorchester-yoga-centre.png"
+  group: spiritual
+  latitude: 50.7112
+  longitude: -2.4412
+  popupText:
+- name: Dorset Christian Fellowship - Frome River Action Group
+  description: The Frome River Action Group, initiated by Dorset Christian Fellowship,
+    is engaged in a project in cooperation with Dorset Wildlife Trust (DWT) and the
+    Dorset Area of Outstanding Natural Beauty to try to eliminate the invasive weed
+    'Himalayan Balsam' (HB) from the Upper Frome Catchment area. They started in July
+    2018 with two days of action at ponds in Frome St. Quintin and carried out extensive
+    surveys walking along the Frome and its tributaries. In 2019 and 2020 they did
+    more work at the ponds. Quintin, carried out extensive work at Toller Gate, and
+    removed HB from near the source of the Frome in Evershot. They are seeking to
+    have the Upper Frome Catchment area designated as a Himalayan Balsam Free Area
+    (HBFA).
+  webSite: https://dorcf.org/frome-river-action-group
+  email: prayer@dorcf.org
+  image: "/uploads/dorset-christian-fellowship.png"
+  group: spiritual
+  latitude: 50.7488
+  longitude: -2.3445
+  popupText:
+- name: Dorset National Park Team
+  description: Aims to establish a National Park that will work in partnership for
+    a sustainable, thriving future for Dorset's communities, economy and environment,
+    help address the climate and ecological emergencies, and help us all safeguard
+    and pass on our very special environment and heritage for the benefit of future
+    generations and the nation.
+  webSite: https://www.dorsetnationalpark.com/
+  email: ''
+  image: "/uploads/dorset-national-park.png"
+  group: environment
+  latitude: 50.7488
+  longitude: -2.3445
+  popupText:
+- name: Friends of Wellfields community group
+  description: |-
+    a community based volunteer group in Bradpole, Bridport, Dorset.
+    They are trying to add trees, plants and bulbs to green verges and spaces in and around their neighbourhood.
+    They want to encourage Bridport Town Council to help them create more biodiversity.
+  webSite: ''
+  email: Friendsofwellfields@gmail.com
+  image: "/uploads/friends-of-wellfield.png"
+  group: community
+  latitude: 50.7456
+  longitude: -2.7374
+  popupText:
+- name: Green Martinstown
+  description: We are a community group of Martinstown residents with a shared aim
+    of making Martinstown more sustainable - leading to carbon neutrality. We have
+    teams working on projects to reduce waste, plant trees and wildflower meadows,
+    manage a community compost heap and much more.
+  webSite: https://www.greenmartinstown.org.uk/
+  email: greenmartinstown@gmail.com
+  image: "/uploads/green-martinstown.png"
+  group: sustainability
+  latitude: 50.6994
+  longitude: -2.5027
+  popupText:
+- name: Hazelbury Bryan Parish Council
+  description: |-
+    Hazelbury Bryan is a large parish of 997 hectares (2,415 acres) in the south-west of the Blackmore Vale.  It is bounded to the north by Ridge Drove, Smetherd Farm and Deadmoor Common, by Mount Pleasant Farm on the east, Park Gate to the South and a tributary of the River Lydden in the west, joining the Lydden itself south of Lyddon House.
+    The village comprises seven separate hamlets of Kingston, Wonston (and Pleck), Pidney, Partway, Woodrow, Droop and Park Gate, with open fields between them.  This arrangement is unusual, if not unique, in Dorset.
+    In 2011, and again in 2016, the residents of Hazelbury Bryan were asked what was important about the area. Not surprisingly on both occasions the answers were very similar - location and environment and the sense of community.
+  webSite: http://www.hazelburybryan.com
+  email: ''
+  image: "/uploads/hazelbury-bryan.png"
+  group: government
+  latitude: 50.8740
+  longitude: -2.3670
+  popupText:
+- name: Langton Planet Action
+  description: |-
+    Langton Planet Action Supports the aims of Dorset CAN
+    Langton Planet Action has declared a Climate and Ecological emergency. LPA members network with community groups locally within the Village of Langton Matravers. Members are actively involved with 'The LM Allotments', The Woodland Trail, The Community Orchard, St George's Church, Langton Forest Schools and Langton Matravers Village Hall.
+    LPA also actively networks and supports environmental groups throughout Purbeck. By working together, we will reduce our impact on the planet, we will live more in balance with nature and will achieve more genuinely sustainable and vibrant communities.
+  webSite: ''
+  email: office@purbeckbenefice.plus.com
+  image: "/uploads/langton.png"
+  group: environment
+  latitude: 50.6093
+  longitude: -2.0047
+  popupText:
+- name: The Piddle Path
+  description: A community campaign to improve the Piddletrenthide to Piddlehinton
+    bridleway to make it passable in all weathers but in keeping with its rural surrounds.
+    We want to encourage more people to get out cycling, walking and riding and link
+    the communities of Piddletrenthide and Piddlehinton and provide an alternative
+    to the busy B3143. We want to provide a safe route to school, to the local pubs,
+    businesses and amenities and to link friends.  We want to reduce parking in the
+    villages and we want to reduce car usage. We want to make the Piddle Path usable
+    for everyone; for the less mobile, for wheel chairs and buggies.
+  webSite: https://piddlepath.wordpress.com/
+  email: ''
+  image: "/uploads/piddlepath.png"
+  group: pathway
+  latitude: 50.7740
+  longitude: -2.4046
+  popupText:
+- name: Planet Purbeck
+  description: |-
+    A movement that gathers together individuals, groups and organisations who understand that climate change and biodiversity loss jeopardise everything we hold dear - and want to do something about it.
+    We recognize that our combined drive, passion, skills and experience can exert more influence than acting alone. Our coordinated actions aim not just to preserve our natural heritage but to regenerate it. We will campaign for causes that reflect our core values. We will fight to ensure progress in the climate emergency that faces us all. We will battle to improve the environment that surrounds us. And we will build resilience so we may weather the crises that lay ahead and protect future generations.
+    We're working hard to build a network of people who can make all this happen.
+  webSite: https://planetpurbeck.org
+  email: planetpurbeck@gmail.com
+  image: "/uploads/planet-purbeck.png"
+  group: biodiversity
+  latitude: 50.7021
+  longitude: -2.0965
+  popupText:
+- name: The Portland Biodiversity Group
+  description: Exists to explore, monitor and promote the natural heritage of the
+    Isle of Portland, Dorset, through the inclusive engagement with those that share
+    this interest.
+  webSite: https://www.facebook.com/groups/640273740306604
+  email: ''
+  image: "/uploads/portland-biodiversity-group.png"
+  group: biodiversity
+  latitude: 50.5475
+  longitude: -2.4343
+  popupText:
+- name: Power Naturally
+  description: |-
+    Leading renewable energy installers based near Wimborne, Dorset, with over 2,000 installations of ground source heat pumps, air source heat pumps and solar systems.
+    They are MCS accredited for ASHP, GSHP, Solar PV and Solar Thermal and also offer both Underfloor Heating and MVHR as part of our renewable package. They have a fully trained team of heat pump engineers, electricians and designers and are both Mitsubishi AEI and Daikin D1 accredited. They are members of the GSHP Association, the Heat Pump Federation, and RECC ( renewable energy consumer code ). We offer a complete package from design, supply, installation and commissioning, and our MCS accreditation means we can also access Government funding for heat pumps.
+  webSite: http://www.powernaturally.co.uk/
+  email: ''
+  image: "/uploads/power-naturally.png"
+  group: energy
+  latitude: 50.8005
+  longitude: -1.9830
+  popupText:
+- name: Seeding our Future
+  description: 'The aim of the Seeding our Future project is to evolve and share ways
+    that individuals, communities and front-line public services in the UK can grow
+    their resilience skills and wisdom to thrive and adapt to meet future pressures
+    positively. A distinctive aspect of our approach is using contact with Nature
+    as a catalyst, helping people to open to new viewpoints and learn from the resilience
+    of ecosystems. The overall aim of Seeding our Future is to work as a pioneer and
+    catalyst: identifying new issues, and creating or gathering processes to help
+    our client groups to face them. We aim to do this by running pilot projects, achieving
+    proof of concept, and then sharing our experience through train the trainer programmes
+    or online resources to encourage others to use them. Seeding our Future is a non-profit
+    project, started in 2017. The founder and main funder is Alan Heeks, a social
+    entrepreneur and writer.'
+  webSite: https://www.seedingourfuture.org.uk
+  email: ''
+  image: "/uploads/seeding-our-future.png"
+  group: agricultural
+  latitude: 50.7336
+  longitude: -2.7583
+  popupText:
+- name: Shaftesbury Town Council
+  description: " * Shaftesbury Town Council declared a Climate Emergency in 2019,
+    resolving to form a working group with members of the community to draw up a plan
+    for action. (Shaftesbury Town Council, 2019) * The Council's strategic plan had
+    already identified some projects which supported the Climate Change agenda and
+    these are included in the action plan below to show a comprehensive * The action
+    plan aims for the Town Council to be carbon neutral by 2030 and provide opportunities
+    for the community of Shaftesbury to also attain that * Plastic free shops and
+    refill stations are growing in popularity, social media frequently promotes shop-local,
+    renewable and green initiatives. Through community engagement, the Council will
+    encourage these habits."
+  webSite: https://www.shaftesbury-tc.gov.uk
+  email: ''
+  image: "/uploads/shaftesbury.png"
+  group: government
+  latitude: 51.0046
+  longitude: -2.1981
+  popupText:
+- name: Shillingstone Parish Council
+  description: Shillingstone village is in North Dorset, located on the south bank
+    of the river Stour in the Blackmore Vale between the market towns of Blandford
+    Forum and Sturminster Newton.
+  webSite: https://shillingstone-pc.gov.uk
+  email: ''
+  image: "/uploads/shillingstone.png"
+  group: government
+  latitude: 50.8989
+  longitude: -2.2498
+  popupText:
+- name: Sustainable Art
+  description: |-
+    A project of Marisa Mann:
+    'My work explores environmental issues through a process of painting and digital composite.
+    From the peat bogs of Cumbria to representing images of Concentrated Solar Power for my home
+    country of Pakistan, I am interested in capturing the imagination of an audience to the current
+    ecological crisis we face. Colour is a critical element in my practice, drawing upon my childhood
+    memories of strong sunlight and vivid colours, in both Pakistan and West Africa. I've always painted,
+    and have studied both art and social sciences, and am passionate about environmental problems.
+    I've painted the peat bogs to show that they have a beauty of their own, to encourage their preservation
+    as a sink for water and greenhouse gasses. I also like to create banners for groups to help show their
+    eco messages.
+  webSite: https://marisamann.wordpress.com/
+  email: marisarehana@sustainableart.co.uk
+  image: "/uploads/sustaionable-art.png"
+  group: art
+  latitude: 51.3355
+  longitude: -1.4199
+  popupText:
+- name: The Word Forest Organisation
+  description: |-
+    a small charity that plants trees, builds schools, facilitates education and supports women's empowerment in rural Kenya. Aside from the building, we do much the same in the UK but on a smaller scale.
+    In order to help this #SmallButMighty charity get more urgently needed trees in the ground, they have a wonderfully creative and ethical range of options to help them raise funds.
+    See their funky, page-turning eCards at eCards.WordForest.org and their range of organic cotton, vegan-friendly tee-shirts at WordForest.org/shop including an exclusive design by Kate Winslet!
+  webSite: https://www.wordforest.org/
+  email: tracey@wordforest.org
+  image: "/uploads/word-forest.png"
+  group: forestry
+  latitude: 50.7199
+  longitude: -3.2904
+  popupText:
+- name: Triarchy Press
+  description: |-
+    a Charmouth-based Systems Thinking publisher of authors, books and ideas that remind us to be aware of the world around us in all its layered complexity. This awareness of the wider context, and of systemic interactions, underpins each of the eight, overlapping subject areas in which we publish (including 'Managing Possible Futures' and 'Movement & Somatics').
+    Titles of interest include Daniel Wahl's Designing Regenerative Cultures, Nora Bateson's Small Arcs of Larger Circles and Anni Kelsey's book on Forest Gardening: The Garden of Equal Delights.
+  webSite: https://www.triarchypress.net/
+  email: ''
+  image: "/uploads/triarchy-press.png"
+  group: business
+  latitude: 50.7385
+  longitude: -2.9034
+  popupText:
+- name: Turn Lyme Green
+  description: Promotes sustainable living in Lyme Regis. Set up in 2007, we engage
+    the community in environmental issues. We meet regularly, plan campaigns and events,
+    and have fun. Collaboration with other environmental groups in West Dorset and
+    beyond is an important part of keeping everyone informed and up to date. TLG acts
+    local, thinks global.
+  webSite: https://turnlymegreen.co.uk/
+  email: enquiries@turnlymegreen.co.uk
+  image: "/uploads/turn-lyme-green.png"
+  group: sustainability
+  latitude: 50.7252
+  longitude: -2.9366
+  popupText:
+- name: Unique Renewable Energy
+  description: Specialists in Solar, Heat Pump, EV Charger & Battery Storage installations
+  webSite: https://uniquerenewableenergy.co.uk/
+  email: ''
+  image: "/uploads/unique.png"
+  group: energy
+  latitude: 50.7150
+  longitude: -1.9872
+  popupText:
+- name: Wessex ECOEnergy
+  description: A technology-focused Solar, Battery and Electric vehicle charger installation
+    company. We believe solar can be beautiful and use the best available products
+    to add value and save energy for your home and business. We cover Dorset, Somerset,
+    Hampshire, Wiltshire & Devon.
+  webSite: http://www.wessexecoenergy.com/
+  email: ''
+  image: "/uploads/wessex-eco-energy.png"
+  group: energy
+  latitude: 50.9375
+  longitude: -1.3770
+  popupText:
+- name: Western Area Transport Action Group's (WATAG)
+  description: Objectives are to seek and achieve sustainable improvement in transport
+    systems in West Dorset (Beaminster, Bridport, Lyme Regis, Maiden Newton and surrounding
+    areas) and sustainable improvement in transport links within the WATAG area, neighbouring
+    counties and elsewhere. WATAG was established in June 2001 and holds bi-monthly
+    meetings which provide a forum for those with transport interests, including Dorset,
+    Town and Parish councillors and officers, rail and bus operators and other groups
+    as well as members of the travelling public.
+  webSite: https://watag.org.uk
+  email: ''
+  image: "/uploads/watag.png"
+  group: transport
+  latitude: 50.7755
+  longitude: -2.5817
+  popupText:
+- name: Climate Action Network
+  designation: ''
+  description: Climate Action Network (CAN) is a global network of more than 1,800
+    civil society organisations in over 130 countries driving collective and sustainable
+    action to fight the climate crisis and to achieve social and racial justice.
+  webSite: https://climatenetwork.org
+  image: ''
+  group: climate
+  latitude:
+  longitude:
+  popupText:
+- name: Somerset CAN
+  designation: ''
+  description: Somerset Climate Action Network is dedicated to enabling the changes
+    needed to drive down emissions whilst adapting to existing climate change.
+  webSite: https://somersetcan.org.uk/
+  image: ''
+  group: climate
+  latitude: 51.1051
+  longitude: -2.9262
+  popupText:
+- name: Wiltshire Climate Alliance
+  designation: ''
+  description: An umbrella organisation for different groups to come together to campaign
+    for action on climate change.
+  webSite: https://www.wiltshireclimatealliance.org.uk
+  image: ''
+  group: climate
+  latitude: 51.3492
+  longitude: -1.9927
+  popupText:
+- name: Devon Climate Emergency
+  designation: ''
+  description: Creating a resilient, net-zero Devon where people and nature thrive!
+  webSite: https://devonclimateemergency.org.uk/
+  image: ''
+  group: climate
+  latitude: 50.7156
+  longitude: -3.5309
+  popupText:
+- name: London Sustainable Development Commission
+  designation: LSDC - London City Hall
+  description: Experts who provide independent advice to the Mayor of London on his
+    sustainable development duty
+  webSite: https://www.london.gov.uk/about-us/organisations-we-work/london-sustainable-development-commission
+  image: ''
+  group: sustainability
+  latitude: 51.5072
+  longitude: -0.1276
+  popupText:
+- name: Leeds Climate Commission
+  designation: Can-do Cities
+  description: Inspired and informed by the work of the UK's Climate Change Committee
+    and is an independent voice in the city, providing authoritative advice on steps
+    towards a low carbon, climate resilient future so as to inform policies and shape
+    the actions of local organisations and stakeholders.
+  webSite: https://leedsclimate.org.uk
+  image: ''
+  group: climate
+  latitude: 53.8008
+  longitude: -1.5491
+  popupText:
+- name: Community Guide to Climate Change
+  designation: Shropshire Council
+  description: We are inspired by Shropshire Council. The 'Community Guide to Climate
+    Change' is designed to support communities to become more sustainable. Sustainability
+    is much broader than just being about environmental issues, and has economic and
+    social aspects.
+  webSite: https://shropshire.gov.uk/shropshire-climate-action/what-have-we-achieved/policies-strategies-and-guides/community-guide-to-climate-change/
+  image: ''
+  group: government
+  latitude: 52.7064
+  longitude: -2.7418
+  popupText:
+- name: Gloucestershire Climate Action Network
+  designation: ''
+  description: Seeks to connect people in Gloucestershire who want to take collective
+    action on climate change, and provides information about opportunities for doing
+    so.
+  webSite: https://gloscan.org
+  image: ''
+  group: climate
+  latitude: 51.8642
+  longitude: -2.2382
+  popupText:

@@ -1,0 +1,25 @@
+{{ if .Site.Data.network.purposeEnable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section id="vision-page" class="pages vision-page">
+  <div class="container">
+    {{ with .Site.Data.network.purposeTitle }}
+    <h3 class="subtitle">
+      {{ . }}
+    </h3>
+    {{ end }}
+
+    {{ with .Site.Data.network.purposeSubtitle }}
+    <h4 class="subtitle text-muted text-center">
+      {{ . }}
+    </h4>
+    {{ end }}
+
+    {{ with .Site.Data.network.purposeStatement }}
+    <p>
+      {{ . | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+{{ end }}

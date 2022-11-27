@@ -1,0 +1,40 @@
+{{ if .Site.Params.teams.enable }}
+{{ "<!-- Portfolio Section Start -->" | safeHTML }}
+<section id="works" class="works">
+  <div class="container">
+    <div class="section-heading">
+      {{ with .Site.Params.teams.title }}<h1 class="title">{{ . }}</h1>{{ end }}
+      {{ with .Site.Params.teams.subtitle }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <div class="row">
+      {{ range $index, $element:= where .Site.RegularPages "Type" "team" }}
+      <div class="col-md-4 col-sm-6">
+        {{ $delay := mul $index 200 }}
+        <figure class="portfolio-item">
+          <div class="img-wrapper">
+            <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="this is a title">
+            <div class="overlay">
+              <div class="buttons">
+                <!-- <a rel="gallery" class="fancybox" href="{{ .Params.Image | relURL }}">Demo</a> -->
+                <a href="{{ .Permalink }}">Read</a>
+              </div>
+            </div>
+          </div>
+          <figcaption>
+            <h4>
+              <a href="{{ .Permalink }}">
+                {{ .Title }}
+              </a>
+            </h4>
+            <p>
+              {{ .Params.caption }}
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ "<!-- Portfolio Section End -->" | safeHTML }}
+{{ end }}

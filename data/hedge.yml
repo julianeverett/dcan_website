@@ -1,0 +1,41 @@
+projectTitle: Great Big Dorset Hedge
+# image: /uploads/annie-spratt-wSOyw11WQxM-unsplash_hedge.jpg
+image: /uploads/hedge_overview_map_orig.png
+description: Map, plant, expand, extend and join up sections of hedgerow around and across Dorset.
+menuEnable: true
+menuItems:
+- title: Overview
+  link: /hedge
+- title: How & Why
+  link: /hedge/how_n_why
+- title: Hedge Structures
+  link: /hedge/identify_hedge_structures
+- title: Resources
+  link: /hedge/resources
+- title: Volunteer
+  link: /hedge/volunteer
+- title: Contact
+  link: /hedge/contact
+news:
+events:
+- appointment: "Tues. 18 Oct 2022 6.30-8pm"
+  title: Hedgerow Management
+  description: "By Nigel Adams (who designed the GBDH hedgerow assessment tool). Hosted by CPRE Hampshire ~ Book your tickets on Eventbrite."
+- appointment: "Oct 27th at 7.30 pm"
+  title: Next Great Big Dorset Hedge meeting
+  description: "Zoom link and agenda to follow (or email julie.leah150@gmail.com)"
+email: greatbigdorsethedge@gmail.com
+caption: Climate Action - making things happen
+synopsis: "Imagine along the Jubilee Way and the four major Dorset walking trails.
+  <br><br>
+  We plant, expand, extend and join-up and map sections of hedgerow around and across Dorset into multiple corridors that promote biodiversity and help wildlife of all sorts (birds, insects, amphibians, mammals, wildflowers, trees, fungi) to flourish across the county."
+categories:
+- Planting
+- ECO Restore
+organizers:
+- name: Colin Tracey
+  email: dorsetcan@gmail.com
+- name: Rob Waitt
+  email: dorsetcan@gmail.com
+- name: Vicki Elcoate
+  email: dorsetcan@gmail.com

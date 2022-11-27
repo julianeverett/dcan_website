@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "ddb/navbar.html" . }}
+
+<section id="blog-full-width">
+
+  <!-- Page Title -->
+  {{ partial "ddb/title.html" . }}
+
+  <div class="container col-11">
+    <div class="row mt-3">
+
+      <!-- Main Content Article -->
+      <div class="col-md-8">
+        {{ partial "ddb/article.html" . }}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        {{ partial "ddb/sidebar.html" . }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ partial "cta.html" . }}
+{{ end }}

@@ -1,0 +1,19 @@
+{{ if .Site.Data.about.purposeEnable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section id="vision-page" class="pages vision-page pt-5 pb-1">
+  <div class="container">
+    {{ with .Site.Data.about.purposeTitle }}
+    <h3 class="subtitle">
+      {{ . }}
+    </h3>
+    {{ end }}
+
+    {{ with .Site.Data.about.purposeStatement }}
+    <p>
+      {{ . | safeHTML }}
+    </p>
+    {{ end }}
+  </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+{{ end }}

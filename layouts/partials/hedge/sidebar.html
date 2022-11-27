@@ -1,0 +1,65 @@
+<div class="work-single-sidebar">
+  <h3>{{ .Site.Data.hedge.projectTitle }}</h3>
+  <h4>{{ .Title }}</h4>
+
+  <!-- Project EMAIL -->
+  {{ with .Site.Data.hedge.email }}
+    <p><small><a href="mailto:{{ . }}">{{ . }}</a></small></p>
+  {{ end }}
+
+  <!-- Project News -->
+  {{ with .Site.Data.hedge.news }}
+    <p><small><a href="mailto:{{ . }}">{{ . }}</a></small></p>
+  {{ end }}
+
+  <!-- Project Events -->
+  {{ with .Site.Data.hedge.events }}
+  <h5 class="h6">Events:</h5>
+    {{ range $index, $element := . }}
+    <h5 class="h6">{{ .appointment }}</h5>
+    <p>
+      <b>{{ .title }}</b><br>
+      <small>{{ .description | safeHTML }}</small>
+    </p>
+    {{ end }}
+  {{ end }}
+
+  <!-- Project Synopsis -->
+  {{ with .Site.Data.hedge.synopsis }}
+    <h5 class="h6">Description:</h5>
+    <p><small>{{ . | safeHTML }}</small></p>
+  {{ end }}
+
+  <!-- Organizers -->
+  <h5 class="h6">Organizer(s):</h5>
+  <p><small>
+      {{ range $index, $element:= .Site.Data.hedge.organizers }}
+      {{ with .name }}<span>● {{ . }}</span>{{ end }}
+      {{ with .title }}<span><em>, {{ . }}</em></span>{{ end }}
+      {{ with .email }}<span>- <a href="mailto:{{ . }}">{{ . }}</a></span>{{ end }}
+      <br>
+      {{ end }}
+    </small>
+  </p>
+
+  <!-- List Project Activities -->
+  {{ with .Site.Data.hedge.categories }}
+    <h5 class="h6">Activities:</h5>
+    <p><small>{{ delimit . ", " }}</small></p>
+  {{ end }}
+
+  <!-- Related Menu -->
+  {{ if .Site.Data.hedge.menuEnable }}
+  <h5 class="h6">Project Links:</h5>
+  <div class="row justify-content-center">
+      <ol class="breadcrumb list-inline pt-0">
+        {{ range $index, $element := .Site.Data.hedge.menuItems }}
+        <li class="list-inline-item">
+          <a href="{{ .link }}">{{ .title }}</a>
+        </li>
+        &nbsp; &nbsp;
+        {{ end }}
+      </ol>
+  </div>
+  {{ end }}
+</div>

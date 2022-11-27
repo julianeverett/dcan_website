@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.teams.enable }}
+<div class="container" id="feature">
+  {{ partial "teams/intro.html" . }}
+  {{ partial "teams/team_list.html" . }}
+  <!-- {{ partial "teams/how_tos.html" . }} -->
+</div>
+{{ end }}
+
+{{ partial "cta.html" . }}
+{{ end }}

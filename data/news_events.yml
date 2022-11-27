@@ -1,0 +1,25 @@
+---
+enable: true
+title: Climate Events & News
+introEnable: true
+introTitle: News, Events and Info
+introSubtitle: 'stay up-to-date and engaged'
+introText: '<h3>Read our online <b><big><a href="/newsletters">Newsletter</a></big>
+  and Case-Studies</b></h3>'
+
+summaryEnable: false
+summaryItems:
+- title: News-Letter
+  link: "/news_newsletter"
+  icon: ion-ios-lightbulb-outline
+  description: 'Individul members engaged in climate and environment activities -
+    see the list below'
+
+- title: Social-Media
+  link: "/news"
+  icon: ion-ios-flask-outline
+  description: 'Support other local climate and environment groups with aligned goals'
+- title: News Listings
+  link: "/news"
+  icon: ion-ios-barcode-outline
+  description: 'Support other local climate and environment groups with aligned goals'

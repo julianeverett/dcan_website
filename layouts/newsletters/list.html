@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.newsletters.enable }}
+<div class="container" id="feature">
+  {{ partial "newsletters/intro.html" . }}
+
+  <section>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          {{ partial "newsletters/newsletter_list.html" . }}
+        </div>
+
+        <div class="col-md-6">
+          {{ partial "newsletters/case_study.html" . }}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div>
+{{ end }}
+
+{{ partial "cta.html" . }}
+{{ end }}

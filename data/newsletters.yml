@@ -1,0 +1,88 @@
+---
+enable: true
+title: Newsletter and Case-Studies
+introEnable: true
+introTitle: Newsletter and Case-Studies
+introSubtitle: "Stay up-to-date and engaged"
+introText: ''
+summaryEnable: false
+summaryItems:
+- title: Newsletter
+  link: "/news_newsletter"
+  icon: ion-ios-lightbulb-outline
+  description: "Individul members engaged in climate and environment activities -
+    see the list below"
+
+- title: Social-Media
+  link: "/news"
+  icon: ion-ios-flask-outline
+  description: "Support other local climate and environment groups with aligned goals"
+
+- title: News Listings
+  link: "/news"
+  icon: ion-ios-barcode-outline
+  description: "Support other local climate and environment groups with aligned goals"
+
+newslettersEnable: true
+newslettersTitle: Our Newsletter
+newslettersSubtitle: "stay up-to-date and engaged"
+newslettersText: <p>Read our <b><big><a href="/newsletter">Newsletter</a></big> (online)</b></p>
+caseStudiesEnable: true
+caseStudiesTitle: DCAN Case-Studies
+caseStudiesSubtitle: "local inspiration for your next community project"
+
+caseStudiesText: ''
+caseStudiesList:
+- caseTitle: Shaftesbury HomeGrown
+  caseAuthor: ''
+  caseDate: 2021-02-01
+  caseLink: images/case_study_1_shaftesbury_homegrown.pdf
+  caseImage: "/images/dcan_pexels-ben-sharples-6336297.jpg"
+  caseSummary: "How to Build a Community Farm"
+
+- caseTitle: Seeding our Future
+  caseAuthor: ''
+  caseDate: 2021-03-01
+  caseLink: "/images/case_study_2_seeding_our_future.pdf"
+  caseImage: ''
+  caseSummary: "Starting a Community Food Security Project"
+
+- caseTitle: Friends of Turner’s Nursery
+  caseAuthor: ''
+  caseDate: 2021-04-01
+  caseLink: images/case_study_3_friends_of_turner.pdf
+  caseImage: "/images/team_media-austin-distel-unsplash.jpg"
+  caseSummary: "Creating a Community Orchard"
+
+- caseTitle: Char Valley River and Lifelines
+  caseAuthor: ''
+  caseDate: 2021-05-01
+  caseLink: "/images/case_study_4_char_valley_river_and_lifelines.pdf"
+  caseImage: ''
+  caseSummary: "Bringing Back the Wild Things"
+
+- caseTitle: Trees for Beaminster
+  caseAuthor: ''
+  caseDate: 2021-06-01
+  caseLink: "/images/case_study_5_trees_for_beaminster.pdf"
+  caseImage: "/images/team_land-andy-newton-unsplash.jpg"
+  caseSummary: "How to Run a Tree Planting Campaign"
+
+- caseTitle: How to Relate to your MP​
+  caseAuthor: ''
+  caseDate: 2021-07-01
+  caseLink: "/images/case_study_6_how_to_relate_to_your_mp.pdf"
+  caseImage: ''
+  caseSummary: ''
+- caseTitle: Marnhull Green Teams
+  caseAuthor: ''
+  caseDate: 2021-08-01
+  caseLink: "/images/case_study_7_marnhull_green_teams.pdf"
+  caseImage: ''
+  caseSummary: ''
+- caseTitle: Fair Housing for Frome
+  caseAuthor: ''
+  caseDate: 2021-09-01
+  caseLink: "/images/case_study_8_fair_housing_for_frome.pdf"
+  caseImage: "/images/team_media-austin-distel-unsplash.jpg"
+  caseSummary: "How to Address Homelessness & the lack of Affordable Homes"

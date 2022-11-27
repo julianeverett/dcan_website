@@ -1,0 +1,40 @@
+{{ if .Site.Data.about.leadershipEnable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section id="team_member" class="mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 ">
+        {{ with .Site.Data.about.leadershipTitle }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+        {{ with .Site.Data.about.leadershipDescription }}
+          <p class="text-center"><large>{{ . }}</large></p>
+        {{ end }}
+      </div>
+      {{ range $index, $element:= .Site.Data.about.leadershipPerson }}
+        <div class="row">
+          <div class="card mb-3">
+            <div class="row g-0 bg-light">
+              {{ with .image }}
+              <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <!-- <img src="{{ . | absURL }}" class="img-fluid rounded-start" style="object-fit: cover" alt="image for group"> -->
+                <img src="{{ . | absURL }}" class="img-fluid rounded-circle center-block d-block mx-auto" style="object-fit: cover"
+                  alt="image for group">
+              </div>
+              {{ end }}
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">{{ .name }}</h5>
+                  {{ with .description }}<p class="card-text">{{ . | safeHTML }}</p>{{ end }}
+                  <!-- {{ with .link }}<p class="card-text"><b><a href="{{ . }}">{{ . }}</a></b></p>{{ end }} -->
+                  {{ with .email }}<p class="card-text"><small class="text-muted"><a href="email:{{ . }}">{{ . }}</a></small>
+                  </p>{{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+{{ end }}

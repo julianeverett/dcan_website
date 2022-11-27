@@ -1,0 +1,14 @@
+
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<ul>
+  {{ range .Data.Pages }}
+  <li>
+    <a href="{{.RelPermalink}}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ partial "cta.html" . }}
+{{ end }}
