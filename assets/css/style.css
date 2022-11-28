@@ -5,6 +5,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  /* padding-top: 85px; */
 }
 
 h1,
@@ -29,6 +30,7 @@ p {
 
 body {
   background: #ffffff;
+  z-index: -1;
 }
 
 ul {
@@ -190,9 +192,10 @@ a:hover {
 
 /*=== MEDIA QUERY ===*/
 .top-bar {
-  position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  position: fixed;
   background: #fff;
   color: #fff;
   transition: all 0.2s ease-out 0s;
@@ -213,6 +216,7 @@ a:hover {
   border-radius: 0;
   margin-bottom: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .navbar.bg-light {
@@ -1337,4 +1341,7 @@ ul.social-icons li {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/* # sourceMappingURL=maps/style.css.map */
+#map {
+  z-index: -1;
+}
