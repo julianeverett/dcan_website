@@ -1,0 +1,34 @@
+---
+label: Newsletter item
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: summary
+  label: summary
+pages:
+- content/newsletters/newsletter_2021_01.md
+- content/newsletters/newsletter_2021_02.md
+- content/newsletters/newsletter_2021_03.md
+- content/newsletters/newsletter_2021_04.md
+- content/newsletters/newsletter_2021_05.md
+- content/newsletters/newsletter_2021_06.md
+- content/newsletters/newsletter_2021_08.md
+- content/newsletters/newsletter_2021_10.md

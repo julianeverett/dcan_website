@@ -1,0 +1,127 @@
+---
+label: Network Page
+hide_body: false
+fields:
+- name: enable
+  label: enable
+  type: boolean
+- name: title
+  label: title
+  type: text
+
+- name: descriptionEnable
+  label: descriptionEnable
+  type: boolean
+- name: descriptionTitle
+  label: descriptionTitle
+  type: text
+- name: introSubtitle
+  label: introSubtitle
+  type: text
+- name: description
+  label: description
+  type: textarea
+  default: ''
+- name: descriptionImage
+  label: descriptionImage
+  type: file
+
+- name: purposeEnable
+  label: purposeEnable
+  type: boolean
+- name: purposeTitle
+  label: purposeTitle
+  type: text
+- name: purposeSubtitle
+  label: purposeSubtitle
+  type: text
+- name: description
+  label: description
+  type: textarea
+  default: ''
+
+- name: mapEnable
+  label: mapEnable
+  type: boolean
+- name: mapTitle
+  label: mapTitle
+  type: text
+- name: mapSubtitle
+  label: mapSubtitle
+  type: text
+- name: mapText
+  label: mapText
+  type: textarea
+  default: ''
+
+- name: membersEnable
+  label: membersEnable
+  type: boolean
+- name: membersTitle
+  label: membersTitle
+  type: text
+- name: membersSubtitle
+  label: membersSubtitle
+  type: text
+- name: membersDescription
+  label: membersDescription
+  type: textarea
+  default: ''
+
+- name: members
+  label: members
+  type: field_group_list
+  fields:
+  - name: name
+    label: name
+    type: text
+  - name: description
+    label: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - name: website
+    label: website
+    type: text
+  - name: email
+    label: email
+    type: text
+  - name: image
+    label: image
+    type: file
+  - name: group
+    label: group
+    type: text
+  - name: popupText
+    label: popupText
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - name: latitude
+    label: latitude
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min:
+      max:
+      step:
+  - name: longitude
+    label: longitude
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min:
+      max:
+      step:

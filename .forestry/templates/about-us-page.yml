@@ -1,0 +1,158 @@
+---
+label: About us page
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: descriptionEnable
+  label: descriptionEnable
+- type: text
+  name: descriptionTitle
+  label: descriptionTitle
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: description
+- type: file
+  name: descriptionImage
+  label: descriptionImage
+- type: boolean
+  name: storyEnable
+  label: storyEnable
+- type: text
+  name: storyTitle
+  label: storyTitle
+- type: textarea
+  name: ourStory
+  label: ourStory
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: storyImage
+  label: storyImage
+- type: boolean
+  name: purposeEnable
+  label: purposeEnable
+- type: text
+  name: purposeTitle
+  label: purposeTitle
+- type: textarea
+  name: purposeStatement
+  label: purposeStatement
+- type: boolean
+  name: valuesEnable
+  label: valuesEnable
+- type: text
+  name: valuesTitle
+  label: valuesTitle
+- type: field_group_list
+  name: valueItems
+  label: valueItems
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: boolean
+  name: visionEnable
+  label: visionEnable
+- type: text
+  name: visionTitle
+  label: visionTitle
+- type: text
+  name: visionSubtitle
+  label: visionSubtitle
+- type: file
+  name: visionImage
+  label: visionImage
+- type: field_group_list
+  name: visionItems
+  label: visionItems
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: boolean
+  name: orgsEnable
+  label: orgsEnable
+- type: text
+  name: orgsTitle
+  label: orgsTitle
+- type: text
+  name: orgsDescription
+  label: orgsDescription
+- type: field_group_list
+  name: organisations
+  label: organisations
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: designation
+    label: designation
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: webSite
+    label: webSite
+- type: boolean
+  name: leadershipEnable
+  label: leadershipEnable
+- type: text
+  name: leadershipTitle
+  label: leadershipTitle
+- type: text
+  name: leadershipDescription
+  label: leadershipDescription
+- type: field_group_list
+  name: leadershipPerson
+  label: leadershipPerson
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: designation
+    label: designation
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: linkedIn
+    label: linkedIn
+pages:
+- data/about.yml

@@ -1,0 +1,95 @@
+---
+label: Newsletter and Case-studies page
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: introEnable
+  label: introEnable
+- type: text
+  name: introTitle
+  label: introTitle
+- type: text
+  name: introSubtitle
+  label: introSubtitle
+- type: text
+  name: introText
+  label: introText
+- type: boolean
+  name: summaryEnable
+  label: summaryEnable
+- type: field_group_list
+  name: summaryItems
+  label: summaryItems
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: icon
+    label: icon
+  - type: textarea
+    name: description
+    label: description
+- type: boolean
+  name: newslettersEnable
+  label: newslettersEnable
+- type: text
+  name: newslettersTitle
+  label: newslettersTitle
+- type: text
+  name: newslettersSubtitle
+  label: newslettersSubtitle
+- name: newslettersText
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: newslettersText
+- type: boolean
+  name: caseStudiesEnable
+  label: caseStudiesEnable
+- type: text
+  name: caseStudiesTitle
+  label: caseStudiesTitle
+- type: text
+  name: caseStudiesSubtitle
+  label: caseStudiesSubtitle
+- type: text
+  name: caseStudiesText
+  label: caseStudiesText
+- type: field_group_list
+  name: caseStudiesList
+  label: caseStudiesList
+  fields:
+  - type: text
+    name: caseTitle
+    label: caseTitle
+  - type: text
+    name: caseAuthor
+    label: caseAuthor
+  - type: datetime
+    name: caseDate
+    label: caseDate
+  - type: file
+    name: caseLink
+    label: caseLink
+  - type: file
+    name: caseImage
+    label: caseImage
+  - type: textarea
+    name: caseSummary
+    label: caseSummary
+pages:
+- data/newsletters.yml

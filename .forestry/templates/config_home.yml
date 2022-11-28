@@ -1,0 +1,186 @@
+---
+label: config_home
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: googleAnalitycsID
+    label: googleAnalitycsID
+  - type: text
+    name: home
+    label: home
+  - type: file
+    name: logo
+    label: logo
+  - type: field_group
+    name: about
+    label: about
+    fields:
+    - type: textarea
+      name: content
+      label: content
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+    - type: boolean
+      name: enable
+      label: enable
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: banner
+    label: banner
+    fields:
+    - type: file
+      name: bgImage
+      label: bgImage
+    - type: boolean
+      name: btn
+      label: btn
+    - type: text
+      name: btnText
+      label: btnText
+    - type: text
+      name: btnURL
+      label: btnURL
+    - type: text
+      name: description
+      label: description
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: heading
+      label: heading
+    - type: field_group_list
+      name: flipText
+      label: banner texts
+      fields:
+      - type: text
+        name: title
+        label: title
+  - type: field_group
+    name: cta
+    label: Contact US section
+    fields:
+    - type: text
+      name: btnText
+      label: btnText
+    - type: text
+      name: btnURL
+      label: btnURL
+    - type: text
+      name: content
+      label: content
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: orgs
+    label: orgs
+    fields:
+    - type: boolean
+      name: orgsEnable
+      label: orgsEnable
+    - type: text
+      name: orgsTitle
+      label: orgsTitle
+    - type: field_group_list
+      name: organisations
+      label: organisations
+      fields:
+      - type: text
+        name: description
+        label: description
+      - type: text
+        name: designation
+        label: designation
+      - type: text
+        name: email
+        label: email
+      - type: text
+        name: facebook
+        label: facebook
+      - type: file
+        name: image
+        label: image
+      - type: text
+        name: linkedIn
+        label: linkedIn
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: twitter
+        label: twitter
+  - type: field_group
+    name: team
+    label: team
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: title
+      label: title
+  - type: field_group
+    name: vision
+    label: vision
+    fields:
+    - type: boolean
+      name: visionEnable
+      label: visionEnable
+    - type: file
+      name: visionImage
+      label: visionImage
+    - type: text
+      name: visionSubtitle
+      label: visionSubtitle
+    - type: text
+      name: visionTitle
+      label: visionTitle
+    - type: field_group_list
+      name: visionItems
+      label: visionItems
+      fields:
+      - type: textarea
+        name: description
+        label: description
+      - type: text
+        name: title
+        label: title
+  - type: field_group_list
+    name: socialIcon
+    label: socialIcon
+    fields:
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: url
+      label: url
+pages:
+- config.toml

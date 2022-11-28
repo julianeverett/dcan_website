@@ -1,0 +1,31 @@
+---
+label: Donate page
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: introEnable
+  label: introEnable
+- type: text
+  name: introTitle
+  label: introTitle
+- type: text
+  name: introSubtitle
+  label: introSubtitle
+- type: file
+  name: donateImage
+  label: donateImage
+- type: textarea
+  name: donateText
+  label: donateText
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+pages:
+- data/donate.yml

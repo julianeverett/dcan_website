@@ -1,0 +1,60 @@
+---
+label: Team item
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - team
+    source:
+      type: simple
+      section:
+      file:
+      path:
+  label: type
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: caption
+  label: caption
+- type: file
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: organizer
+  label: organizer
+- type: textarea
+  name: synopsis
+  label: synopsis
+- type: field_group_list
+  name: organizers
+  label: organizers
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: email
+    label: email
+pages:
+- content/teams/team_action.md
+- content/teams/team_advocacy.md
+- content/teams/team_energy.md
+- content/teams/team_land-use.md
+- content/teams/team_media.md
+- content/teams/team_questions.md
+- content/teams/transport.md
+- content/teams/waste-team.md
