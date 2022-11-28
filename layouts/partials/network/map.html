@@ -42,16 +42,17 @@
 
   // Base Maps - https://github.com/leaflet-extras/leaflet-providers
   // Define The Map Style (from Openstreetmap)
-  var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(netMap);
+  // var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  //   maxZoom: 18,
+  //   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors. Outline of Dorset and BCP was derived from the <a href="https://www.ordnancesurvey.co.uk/business-government/products/boundaryline">Ordnance Survey - Boundary Line product</a>. Credit to Barry Cornelius <a href="http://www.rowmaps.com">www.rowmaps.com</a> for combing regions formatting the data into GeoJSON format.'
+  // }).addTo(netMap);
 
   // Define The Map Style (from Mapbox)
   var mapBox = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>, ' +
+      'Outline of Dorset and BCP was derived from the <a href="https://www.ordnancesurvey.co.uk/business-government/products/boundaryline">Ordnance Survey - Boundary Line product</a>. Credit to Barry Cornelius <a href="http://www.rowmaps.com">www.rowmaps.com</a> for combing regions formatting the data into GeoJSON format.',
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1
@@ -59,7 +60,6 @@
 
   // Dorset Boundary
   // Download
-  // https://geoportal.statistics.gov.uk/datasets/f1b7f9a396c64ae89aea1db3177d6463_0/explore?location=51.829657%2C-1.557656%2C7.88
   // https://geoportal.statistics.gov.uk/datasets/counties-and-unitary-authorities-december-2019-boundaries-uk-buc/explore?location=54.484119%2C-3.250000%2C6.90
   // https://www.rowmaps.com/jsons/DT/
   //
@@ -69,11 +69,17 @@
   // https://jsfiddle.net/guihig/2ks1ohwc/5/
   // https://gis.stackexchange.com/questions/357562/adding-multipolygon-geojson-file-to-leaflet-map-layer
   // https://stackoverflow.com/questions/13455842/where-to-find-the-uks-regions-map-on-geojson-format
-  let dorsetCountyGeoJson = {{ .Site.Data.dorset_county }}
-  L.geoJSON(dorsetCountyGeoJson).addTo(netMap);
 
-  let pooleGeoJson = {{ .Site.Data.bcp }}
-  L.geoJSON(pooleGeoJson).addTo(netMap);
+  // somewhere on your website, you need to credit the Ordnance Survey saying the outline of Dorset and BCP was derived from their Boundary Line product.A credit to Barry Cornelius(www.rowmaps.com) would also be nice.
+  let dorsetBcpGeoJson = {{ .Site.Data.dorset_bcp }}
+  L.geoJSON(dorsetBcpGeoJson).addTo(netMap);
+
+  // // https://geoportal.statistics.gov.uk/datasets/f1b7f9a396c64ae89aea1db3177d6463_0/explore?location=51.829657%2C-1.557656%2C7.88
+  // let dorsetCountyGeoJson = {{ .Site.Data.dorset_county }}
+  // L.geoJSON(dorsetCountyGeoJson).addTo(netMap);
+
+  // let pooleGeoJson = {{ .Site.Data.bcp }}
+  // L.geoJSON(pooleGeoJson).addTo(netMap);
 
   function createMarkersFromLocations(members) {
     var markers = []
@@ -120,8 +126,8 @@
 
   // Define Menu parameters
   let baseMaps = {
-    "Detailed": osm,
-    "Simple": mapBox
+    // "Detailed": osm,
+    // "Simple": mapBox
   };
   var overlayMaps = {
     "all": group,
