@@ -1,69 +1,92 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path:
 webhook_url:
 sections:
-- type: heading
-  label: Content
-- type: document
-  path: config.toml
-  label: home
 - type: directory
-  path: data
+  path: content
   label: Pages
   create: all
-  match: "**/*"
-  new_doc_ext: yml
-- type: heading
-  label: Items
+  match: "*"
 - type: directory
-  path: content/network
-  label: Network items
+  path: content/teams
+  label: Teams
   create: all
   match: "**/*"
 - type: directory
-  path: content/news_events
-  label: News events items
+  path: content/service
+  label: Service
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/portfolio
+  label: Portfolio
   create: all
   match: "**/*"
 - type: directory
   path: content/newsletters
-  label: Newsletters items
+  label: Newsletters
   create: all
   match: "**/*"
 - type: directory
-  path: content/teams
-  label: Teams items
-  create: all
-- type: directory
-  path: content/ddb
-  label: Dorset Deserves Better
-- type: directory
-  path: content/hedge
-  label: The Great Hedgerow
-  create: all
-  match: "**/*"
-- type: heading
-  label: SEO
-- type: directory
-  path: content/about
-  label: About SEO
+  path: content/news_events
+  label: News events
   create: all
   match: "**/*"
 - type: directory
-  path: content/contact
-  label: Contact SEO
+  path: content/network
+  label: Network
   create: all
   match: "**/*"
 - type: directory
-  path: content/donate
-  label: Donate SEO
+  path: content/members
+  label: Members
   create: all
   match: "**/*"
 - type: directory
   path: content/join
-  label: Join SEO
+  label: Join
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/hedge
+  label: Hedge
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/gallery
+  label: Gallery
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/donate
+  label: Donate
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ddb
+  label: Ddb
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/about
+  label: About
   create: all
   match: "**/*"
 upload_dir: static/uploads
