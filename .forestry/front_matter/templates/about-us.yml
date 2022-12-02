@@ -2,9 +2,15 @@
 label: About Us
 hide_body: true
 fields:
+- name: enable
+  type: boolean
+  label: enable
+  default: true
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
