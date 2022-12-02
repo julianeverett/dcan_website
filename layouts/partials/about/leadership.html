@@ -9,30 +9,29 @@
           <p class="text-center"><large>{{ . }}</large></p>
         {{ end }}
       </div>
+      <div class="row">
       {{ range $index, $element:= .Site.Data.about.leadershipPerson }}
-        <div class="row">
-          <div class="card mb-3">
-            <div class="row g-0 bg-light">
+
+          <div class="card mb-3 border-0">
+            <div class="row g-0t">
               {{ with .image }}
               <div class="col-md-3 d-flex align-items-center justify-content-center">
-                <!-- <img src="{{ . | absURL }}" class="img-fluid rounded-start" style="object-fit: cover" alt="image for group"> -->
-                <img src="{{ . | absURL }}" class="img-fluid rounded-circle center-block d-block mx-auto" style="object-fit: cover"
-                  alt="image for group">
+                <img src="{{ . | absURL }}" class="img-fluid rounded-circle center-block d-block mx-auto" style="object-fit: cover" alt="image for group">
               </div>
               {{ end }}
               <div class="col-md-9">
-                <div class="card-body">
+                <div class="card-body w-100">
                   <h5 class="card-title">{{ .name }}</h5>
                   {{ with .description }}<p class="card-text">{{ . | safeHTML }}</p>{{ end }}
-                  <!-- {{ with .link }}<p class="card-text"><b><a href="{{ . }}">{{ . }}</a></b></p>{{ end }} -->
                   {{ with .email }}<p class="card-text"><small class="text-muted"><a href="email:{{ . }}">{{ . }}</a></small>
                   </p>{{ end }}
                 </div>
               </div>
             </div>
           </div>
-        </div>
+
       {{ end }}
+      </div>
     </div>
   </div>
 </section>

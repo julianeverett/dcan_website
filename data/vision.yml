@@ -1,0 +1,27 @@
+---
+visionEnable: false
+visionTitle: Our Vision
+visionSubtitle: ''
+visionImage: images/vision_chris-meads-u2kf8o8O64-unsplash.jpg
+visionItems:
+- title: Zero Carbon
+  description: the whole county (council, businesses and residents) has stopped causing
+    further climate overheating with carbon emissions from our homes, buildings, cars
+    and energy use.
+- title: Bright Blue
+  description: every river and stream and beach in Dorset is safe to swim or play
+    in. (Currently our rivers and seas are amongst the most polluted in Europe).
+- title: Wild Green
+  description: chemical pesticides, fungicides and herbicides are no longer used and
+    tree-planting, meadow and heathland regeneration and spreading hedgerows allow
+    the wild things to live and regenerate across the county.
+- title: Locally Fed
+  description: communities grow food locally and more and more schools, care homes,
+    businesses, restaurants, cafés and private homes use locally grown food.
+- title: Community Centred
+  description: people of all ages, incomes and backgrounds can afford to live and
+    participate equally in active local communities with schemes for sharing, repairing
+    and recycling and public transport every hour.
+- title: Sparkling Clean
+  description: radically reduced levels of air pollution and litter alongside a complete
+    halt to selling and using single-use plastics.
