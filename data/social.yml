@@ -1,0 +1,11 @@
+---
+enable: true
+socialIcon:
+- icon: "ion-social-facebook"
+  url: "https://www.facebook.com/DorsetCAN/"
+- icon: "ion-social-twitter"
+  url: "https://twitter.com/dorset_can"
+- icon: "ion-social-instagram"
+  url: "https://www.instagram.com/dorset_can/"
+- icon: "ion-social-snapchat"
+  url: "https://www.snapchat.com/add/dorset_can"

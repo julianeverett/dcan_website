@@ -1,12 +1,12 @@
-{{ if .Site.Params.vision.visionEnable }}
+{{ if .Site.Data.home.vision.visionEnable }}
 {{ "<!-- team Section Start -->" | safeHTML }}
 <section id="vision-page" class="pages vision-page">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        {{ with .Site.Params.vision.visionTitle }}
+        {{ with .Site.Data.home.vision.visionTitle }}
         <h2 class="subtitle">{{ . }}</h2>{{ end }}
-        {{ with .Site.Params.vision.visionSubtitle }}
+        {{ with .Site.Data.home.vision.visionSubtitle }}
         <p class="subtitle-des">{{ . }}</p>{{ end }}
       </div>
     </div>
@@ -14,7 +14,7 @@
       <div class="col-lg-6 order-2 order-lg-1">
         <div class="block">
           <div class="row team-parts">
-            {{ range .Site.Params.vision.visionItems }}
+            {{ range .Site.Data.home.vision.visionItems }}
             <div class="col-md-6">
               <div class="block">
                 {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      {{ with .Site.Params.vision.visionImage }}
+      {{ with .Site.Data.home.vision.visionImage }}
       <div class="col-lg-6 order-1 order-lg-2">
         <div class="block">
           <img class="img-fluid" src="{{ . | absURL }}" alt="about-image">

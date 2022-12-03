@@ -1,6 +1,6 @@
-{{ if .Site.Params.banner.enable }}
+{{ if .Site.Data.home.banner.enable }}
 {{ "<!-- Slider Section Start -->" | safeHTML }}
-<section id="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+<section id="hero-area" style='background-image: url("{{ .Site.Data.home.banner.bgImage | absURL }}");'>
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -8,22 +8,22 @@
           {{ "<!-- Slider -->" | safeHTML}}
           <section class="cd-intro">
             <h1 class="cd-headline slide">
-              {{ with .Site.Params.banner.heading }}<span>{{ . }}</span>{{ end }}
+              {{ with .Site.Data.home.banner.heading }}<span>{{ . }}</span>{{ end }}
               <!-- <br>
               <span class="cd-words-wrapper text-center">
-                {{ range $index, $element := .Site.Params.banner.flipText }}
+                {{ range $index, $element := .Site.Data.home.banner.flipText }}
                 <b class="{{if eq $index 0}}is-visible{{end}}" style="white-space: normal;">{{.title}}</b>
                 {{ end }}
               </span> -->
             </h1>
           </section>
-          {{ with .Site.Params.banner.description }}
+          {{ with .Site.Data.home.banner.description }}
           <p class="text-secondary"><big><b>{{ . }}</b></big></p>
           {{ end }}
-          {{ if .Site.Params.banner.btn }}
+          {{ if .Site.Data.home.banner.btn }}
           <a class="btn-lines dark light btn btn-default btn-green hvr-bounce-to-right"
-            href="{{ .Site.Params.banner.btnURL }}"
-            target="_blank">{{ .Site.Params.banner.btnText }}</a>
+            href="{{ .Site.Data.home.banner.btnURL }}"
+            target="_blank">{{ .Site.Data.home.banner.btnText }}</a>
           {{ end }}
         </div>
       </div>
