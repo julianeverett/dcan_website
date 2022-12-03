@@ -1,14 +1,9 @@
 {{ if .Site.Data.network.descriptionEnable }}
 {{ "<!-- Company Description Section Start -->" | safeHTML }}
-<section class="company-description">
+<section class="company-description pb-0">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        {{ with .Site.Data.network.descriptionImage }}
-        <img src="{{ . | absURL }}" alt="" class="img-fluid">
-        {{ end }}
-      </div>
-      <div class="col-md-6">
+      <div class="col-md-12 text-center">
         <div class="block">
           {{ with .Site.Data.network.descriptionTitle }}
           <h3 class="subtitle">

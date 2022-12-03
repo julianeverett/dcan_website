@@ -1,38 +1,12 @@
 ---
 enable: true
 title: About Us
-descriptionEnable: false
-descriptionTitle: Our Description
-description: |
-  <p><b>We get actions done!</b></p> <p> We advocate with local Dorset councils for a fairer, healthier, greener Dorset.</p> <p>We follow-up & keep councils accountable with question team_members.</p> <p>We are connected with the <a href="https://climatenetwork.org/">Climate Action Networks</a>.  We collaborate with other local climate action networks including:
-    <ul>
-      <li>● <a href="https://somersetcan.org.uk/">Somerset CAN</a></li>
-      <li>● <a href="https://leedsclimate.org.uk/">Leeds Climate</a></li>
-      <li>● <a href="https://www.manchesterclimate.com/>Manchester Climate</a></li>
-      <li>● <a href="http://gloscan.org/>Gloucestershire CAN</a></li>
-    </ul>
-    We are inspired by the Shropshire's Council:<br><a href="https://shropshire.gov.uk/media/7187/climate-change-guide-for-communities.pdf">Climate Change Guide</a>
-  </p>
-descriptionImage: images/logo/Dorset_CAN_Logo_Original.jpg
-storyEnable: true
-storyTitle: Our Story
-ourStory: "<p><strong>We make connections!</strong></p><p>Dorset CAN works to inform,
-  help and encourage families, businesses and individuals across the county to 'do
-  their bit' to reduce their carbon footprint and minimise our contribution to the
-  climate and nature crisis. We also work to engage with and encourage Dorset Council
-  and BCP Council to 'do their bit' to make this happen.</p><p>We act as an umbrella
-  organisation to all the many climate and eco orientated groups across Dorset, providing
-  support where needed. Linking likeminded groups together our Network is always growing
-  and getting stronger.<br><br>Find out about our current campaigns, events across
-  Dorset, Action Teams, recent newsletters, updates, ideas, case studies, examples
-  and contacts. <br><br><strong>Above all, please join us</strong> - it's free and
-  you don't have to take an active part. The more members we have, the louder our
-  voice is and the more we can achieve. Stronger together!</p>"
-storyImage: images/logo/Dorset_CAN_Logo_Original.jpg
+
 purposeEnable: true
 purposeTitle: Our Purpose
 purposeStatement: A network of community groups and individuals working together for
   a shared vision of a clean, green, sustainable Dorset - taking action together.
+
 valuesEnable: true
 valuesTitle: Our Focus
 valueItems:
@@ -57,32 +31,22 @@ valueItems:
     town and parish councils, wider community networks and the business sector to
     work together to develop better community collaboration and resilience as we promote
     our vision for Dorset.
-visionEnable: false
-visionTitle: Our Vision
-visionSubtitle: ''
-visionImage: images/vision_chris-meads-u2kf8o8O64-unsplash.jpg
-visionItems:
-- title: Zero Carbon
-  description: the whole county (council, businesses and residents) has stopped causing
-    further climate overheating with carbon emissions from our homes, buildings, cars
-    and energy use.
-- title: Bright Blue
-  description: every river and stream and beach in Dorset is safe to swim or play
-    in. (Currently our rivers and seas are amongst the most polluted in Europe).
-- title: Wild Green
-  description: chemical pesticides, fungicides and herbicides are no longer used and
-    tree-planting, meadow and heathland regeneration and spreading hedgerows allow
-    the wild things to live and regenerate across the county.
-- title: Locally Fed
-  description: communities grow food locally and more and more schools, care homes,
-    businesses, restaurants, cafés and private homes use locally grown food.
-- title: Community Centred
-  description: people of all ages, incomes and backgrounds can afford to live and
-    participate equally in active local communities with schemes for sharing, repairing
-    and recycling and public transport every hour.
-- title: Sparkling Clean
-  description: radically reduced levels of air pollution and litter alongside a complete
-    halt to selling and using single-use plastics.
+
+storyEnable: true
+storyTitle: Our Story
+storyImage: images/logo/Dorset_CAN_Logo_Original.jpg
+ourStory: "<p><strong>We make connections!</strong></p><p>Dorset CAN works to inform,
+  help and encourage families, businesses and individuals across the county to 'do
+  their bit' to reduce their carbon footprint and minimise our contribution to the
+  climate and nature crisis. We also work to engage with and encourage Dorset Council
+  and BCP Council to 'do their bit' to make this happen.</p><p>We act as an umbrella
+  organisation to all the many climate and eco orientated groups across Dorset, providing
+  support where needed. Linking likeminded groups together our Network is always growing
+  and getting stronger.<br><br>Find out about our current campaigns, events across
+  Dorset, Action Teams, recent newsletters, updates, ideas, case studies, examples
+  and contacts. <br><br><strong>Above all, please join us</strong> - it's free and
+  you don't have to take an active part. The more members we have, the louder our
+  voice is and the more we can achieve. Stronger together!</p>"
 
 leadershipEnable: true
 leadershipTitle: Meet Us

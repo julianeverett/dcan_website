@@ -2,11 +2,10 @@
 enable: true
 title: Our Network
 
-descriptionEnable: true
-descriptionTitle:
+descriptionEnable: false
+descriptionTitle: Our Network
 description: Organisational members of DorsetCAN Providing an umbrella network for
   likeminded groups across Dorset
-descriptionImage: images/logo/Dorset_CAN_Logo_Original.jpg
 
 purposeEnable: false
 purposeTitle: Our Network

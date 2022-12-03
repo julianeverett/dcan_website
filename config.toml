@@ -5,6 +5,7 @@ relativeurls = true
 summaryLength = "150"
 theme = "timer-hugo"
 title = "DCAN | Dorset Climate Action Network"
+
 [[menu.main]]
 name = "Our Network"
 url = "network"
@@ -29,6 +30,7 @@ weight = 4
 name = "Teams"
 url = "teams"
 weight = 2
+
 [params]
 author = "Dorset CAN"
 contactFormAction = "#"
@@ -50,54 +52,14 @@ btnURL = "contact"
 description = "Inspiring community-led action for a fairer, healthier, greener Dorset"
 enable = true
 heading = "Dorset Climate Action Network"
-[[params.banner.flipText]]
-title = "Zero Carbon"
-[[params.banner.flipText]]
-title = "Bright Blue"
-[[params.banner.flipText]]
-title = "Wild Green"
-[[params.banner.flipText]]
-title = "Locally Fed"
-[[params.banner.flipText]]
-title = "Community Centred"
-[[params.banner.flipText]]
-title = "Sparkling Clean"
+
 [params.cta]
 btnText = "Contact Us"
 btnURL = "/contact"
 content = "Let us know what you are thinking!"
 enable = true
 title = "Questions / Interested?"
-[params.orgs]
-orgsEnable = false
-orgsTitle = "Supporting Organisations"
-[[params.orgs.organisations]]
-description = "Awesome Pizza from locally supplied, sustainable ingredients."
-designation = "Business Supporter"
-email = "info@conatiner4.ch"
-facebook = "https://www.facebook.com/DorsetCAN/"
-image = "images/team-member/Katherine.webp"
-linkedIn = "https://www.linkedin.com/company/container4"
-name = "Joe's Pizza"
-twitter = "https://www.twitter.com/themefisher"
-[[params.orgs.organisations]]
-description = "Sustainable and affordable transport"
-designation = "Government Collaborator"
-email = ""
-facebook = ""
-image = "images/team-member/Eric-2x.webp"
-linkedIn = ""
-name = "Dorset Transport"
-twitter = ""
-[[params.orgs.organisations]]
-description = "We love sustainable food!"
-designation = "Specializing in equipment that simplifies diversity and organics"
-email = ""
-facebook = ""
-image = "images/team-member/Jasmine_2_1.webp"
-linkedIn = ""
-name = "Martina's Farm Equipment"
-twitter = ""
+
 [params.team]
 enable = true
 subtitle = "Find one you enjoy!"
@@ -125,6 +87,7 @@ title = "Community Centred"
 [[params.vision.visionItems]]
 description = "radically reduced levels of air pollution and litter alongside a complete halt to selling and using single-use plastics.\n"
 title = "Sparkling Clean"
+
 [[params.socialIcon]]
 icon = "ion-social-facebook"
 url = "https://www.facebook.com/DorsetCAN/"
