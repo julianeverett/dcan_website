@@ -11,7 +11,6 @@ categories:
 tags:
 - all
 synopsis: Engaging communications to inspire optimism and action. We CAN!
-organizer: ''
 organizers:
 - name: Vicki Elcoate
   email: vicki.elcoate@gmail.com
@@ -21,6 +20,18 @@ organizers:
   email: traceecossey@gmail.com
 - name: Andrew Carey
   email: andrew@westhay.com
+
+email: greatbigdorsethedge@gmail.com
+
+news:
+
+events:
+- appointment: "Tues. 18 Oct 2022 6.30-8pm"
+  title: Hedgerow Management
+  description: "By Nigel Adams (who designed the GBDH hedgerow assessment tool). Hosted by CPRE Hampshire ~ Book your tickets on Eventbrite."
+- appointment: "Oct 27th at 7.30 pm"
+  title: Next Great Big Dorset Hedge meeting
+  description: "Zoom link and agenda to follow (or email julie.leah150@gmail.com)"
 
 ---
 ### **What have we done so far?**
@@ -55,6 +66,6 @@ Are you excited by Facebook, Twitter, Snapchat or Instagram? Please join our sma
 4. New 'Dorset Deserves Better' campaign attracting media interest
 5. Popular monthly newsletter packed with news, events, ideas and inspiring community climate and environmental case studies from all over Dorset
 
-### 
+###
 
-> 
+>

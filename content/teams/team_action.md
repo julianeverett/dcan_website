@@ -1,6 +1,7 @@
 ---
 title: Action Team
 type: team
+
 description: Providing coordination for Dorset CAN
 caption: Climate Action - making things happen
 image: "/uploads/at-beach-gathering.jpg"
@@ -9,13 +10,25 @@ categories:
 tags:
 - climate
 - action
-organizer: ''
+
 synopsis: Makings things happen for Dorset CAN
 organizers:
 - name: Colin Tracy
   email: dorsetcan@gmail.com
 - name: Vicki Elcoate
   email: dorsetcan@gmail.com
+
+email: greatbigdorsethedge@gmail.com
+
+news:
+
+events:
+- appointment: "Tues. 18 Oct 2022 6.30-8pm"
+  title: Hedgerow Management
+  description: "By Nigel Adams (who designed the GBDH hedgerow assessment tool). Hosted by CPRE Hampshire ~ Book your tickets on Eventbrite."
+- appointment: "Oct 27th at 7.30 pm"
+  title: Next Great Big Dorset Hedge meeting
+  description: "Zoom link and agenda to follow (or email julie.leah150@gmail.com)"
 
 ---
 ### Goals

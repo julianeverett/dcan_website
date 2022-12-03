@@ -10,13 +10,22 @@ categories:
 tags:
 - energy
 - climate
-organizer: ''
-synopsis: 'Working on energy issues, including retrofit, renewables and energy efficiency
-
-  '
+synopsis: 'Working on energy issues, including retrofit, renewables and energy efficiency'
 organizers:
 - name: Jenny Morisetti
   email: jennymorisetti@hotmail.com
+
+email: greatbigdorsethedge@gmail.com
+
+news:
+
+events:
+- appointment: "Tues. 18 Oct 2022 6.30-8pm"
+  title: Hedgerow Management
+  description: "By Nigel Adams (who designed the GBDH hedgerow assessment tool). Hosted by CPRE Hampshire ~ Book your tickets on Eventbrite."
+- appointment: "Oct 27th at 7.30 pm"
+  title: Next Great Big Dorset Hedge meeting
+  description: "Zoom link and agenda to follow (or email julie.leah150@gmail.com)"
 
 ---
 ### What are we doing now?
@@ -26,7 +35,7 @@ organizers:
 * Engaging with stakeholders in the energy sector in Dorset to advocate changes needed to enable the transition to net zero carbon by 2050.
 * Engaging with the Local Authorities in Dorset in pursuit of making progress on their Climate Emergency strategies and plans.
 
-\**When?  
+\**When?
 The next Open Greener Homes will be in 2023
 
 \**Open Greener Homes - We need owners of houses, public buildings, or businesses who would like to show interested members of the public what they have done to improve the ‘green’ credentials of their house, school, village hall, or business premises. This could include solar PV, solar thermal, heat pumps, switching from gas to electric boilers or electric radiators, EV chargers, power storage batteries, triple glazing, loft or wall insulation, etc.

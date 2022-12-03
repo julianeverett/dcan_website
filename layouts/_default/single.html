@@ -30,9 +30,55 @@
         <div class="work-single-sidebar">
           <h4>{{ .Title }}</h4>
 
+          <!-- Project Synopsis -->
           {{ with .Params.synopsis }}
-          <h5>Synopsis:</h5>
-          <p><small>{{ . }}</small></p>
+            <h5 class="h6">Description:</h5>
+            <p><small>{{ . | safeHTML }}</small></p>
+          {{ end }}
+
+          <!-- Project EMAIL -->
+          {{ with .Params.email }}
+            <h5 class="h6">Contact:</h5>
+            <p><small><a href="mailto:{{ . }}">{{ . }}</a></small></p>
+          {{ end }}
+
+          <!-- Project Synopsis -->
+          {{ with .Params.news }}
+            <h5 class="h6">News Update:</h5>
+            <p class="text-success"><small>{{ . | safeHTML }}</small></p>
+          {{ end }}
+
+          <!-- Project Events -->
+          {{ with .Params.events }}
+            <h5 class="h6">Events:</h5>
+            {{ range $index, $element := . }}
+              <h5 class="h6">{{ .appointment }}</h5>
+              <p>
+                <b>{{ .title }}</b><br>
+                <small>{{ .description | safeHTML }}</small>
+              </p>
+            {{ end }}
+          {{ end }}
+
+          <!-- Oraganisers -->
+          {{ with .Params.organizers }}
+            <h5 class="h6">Organizer(s):</h5>
+            <p>
+              <small>
+                {{ range $index, $element:= . }}
+                {{ with .name }}<span>● {{ . }}</span>{{ end }}
+                {{ with .title }}<span><em>, {{ . }}</em></span>{{ end }}
+                {{ with .email }}<span>- <a href="mailto:{{ . }}">{{ . }}</a></span>{{ end }}
+                <br>
+                {{ end }}
+              </small>
+            </p>
+          {{ end }}
+
+          <!-- List Project Activities -->
+          {{ with .Params.categories }}
+            <h5 class="h6">Activities:</h5>
+            <p><small>{{ delimit . ", " }}</small></p>
           {{ end }}
 
           {{ partial "related.html" . }}

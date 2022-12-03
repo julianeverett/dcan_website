@@ -13,7 +13,6 @@ categories:
 tags:
 - West Dorset
 - Purbeck
-organizer: ''
 synopsis: 'We care about both agriculture and wild-areas (especially: wildlife and
   biodiversity)'
 organizers:
@@ -25,6 +24,18 @@ organizers:
   email: julie_leah@btinternet.com
   image: ''
   intro: Lives in Charmouth
+
+email: greatbigdorsethedge@gmail.com
+
+news:
+
+events:
+- appointment: "Tues. 18 Oct 2022 6.30-8pm"
+  title: Hedgerow Management
+  description: "By Nigel Adams (who designed the GBDH hedgerow assessment tool). Hosted by CPRE Hampshire ~ Book your tickets on Eventbrite."
+- appointment: "Oct 27th at 7.30 pm"
+  title: Next Great Big Dorset Hedge meeting
+  description: "Zoom link and agenda to follow (or email julie.leah150@gmail.com)"
 
 ---
 ### What have we done so far?
@@ -55,7 +66,7 @@ In July 2021, we ran an online meeting on **Food Systems & Forest Gardens: how t
 * Trees genuinely protected
 * Farming without reliance on pesticides and herbicides
 
-### 
+###
 
 Interested in getting involved?
 
@@ -71,4 +82,4 @@ Contact Julie or Ian if you'd like to join the Land-use Team.
 3. Ran an online meeting on **Food Systems & Forest Gardens: how to make change happen in your community**
 4. Supported community conservation and rewilding proposals
 
-> 
+>
