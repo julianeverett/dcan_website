@@ -6,6 +6,10 @@ summaryLength = "150"
 theme = "timer-hugo"
 title = "DCAN | Dorset Climate Action Network"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
+
 [params]
 author = "Dorset CAN"
 contactFormAction = "#"

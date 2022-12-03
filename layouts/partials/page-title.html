@@ -1,4 +1,14 @@
 {{"<!-- Global Page Section Start -->" | safeHTML }}
+<!-- Search libraries (fuse) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"
+  integrity="sha384-Xc1CJXitscYgtGvAiyGiYeJGEL6VJ2x6v77/VTd0HoykX00Cc/2F7ai3HuuMtgd+"
+  crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"
+  integrity="sha384-iqnguDoMujGknA4B5Jk7pbSn7sb7M8Tc0zVsTNQXm629Xx00jGEpD9TsZXbfNjKO"
+  crossorigin="anonymous">
+</script>
+
 <section class="global-page-header mt-5">
   <div class="container">
     <div class="row block d-flex">
@@ -29,15 +39,17 @@
           </div>
 
           <div class="ml-auto">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="form-inline my-2 my-lg-0" action="/search">
+              <input id="search-query" name="s" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
           </div>
+
         </div>
 
       </div>
     </div>
+
   </div>
 </section>
 {{"<!-- Global Page Section End -->" | safeHTML }}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<div class="container" id="feature">
+  <div id="search-results">
+    <!-- Results from JS Search -->
+  </div>
+</div>
+<script src="{{"/js/search.js" | urlize | relURL }}"></script>
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+{{ partial "cta.html" . }}
+{{ end }}
