@@ -18,8 +18,18 @@
       {{ end }}
     </div>
 
-    <!-- ensure map goes under navbar with `z-index: 1;` in .navbar -->
-    <!-- ensure map goes under navbar with `z-index: -1;` in #map -->
+    <!-- ensure map goes under navbar with following CSS
+      .navbar {
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        padding: 0;
+        z-index: +1;
+      }
+      #map {
+        z-index: 0;
+      }
+    -->
     <!-- https://stackoverflow.com/questions/43289065/how-to-make-div-element-go-under-nav-bar-when-scrolling-up/43289574 -->
     <div class="row mb-5 mt-4 d-flex justify-content-center">
       <div id="map" style="width: 75%; height: 600px;"></div>
