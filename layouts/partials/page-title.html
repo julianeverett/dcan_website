@@ -17,6 +17,13 @@
                 Home &nbsp; &nbsp;/
               </a>
             </li>
+            {{ with .Params.type }}
+            <li class="list-inline-item">
+              <a href="/{{ . }}s">
+                {{humanize . }}s &nbsp; &nbsp;/
+              </a>
+            </li>
+            {{ end }}
             <li class="active list-inline-item">{{ .Title }}</li>
           </ol>
           </div>
