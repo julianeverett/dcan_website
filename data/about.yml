@@ -1,198 +1,212 @@
----
 enable: true
 title: About Us
-
 purposeEnable: true
 purposeTitle: Our Purpose
-purposeStatement: A network of community groups and individuals working together for
-  a shared vision of a clean, green, sustainable Dorset - taking action together.
-
+purposeStatement: >-
+  A network of community groups and individuals working together for a shared
+  vision of a clean, green, sustainable Dorset - taking action together.
 valuesEnable: true
 valuesTitle: Our Focus
 valueItems:
-- title: Mission
-  description: Our mission is to build and sustain an open, accessible and flexible
-    network and alliance which puts climate and ecological awareness at the heart
-    of all decision-making.<br> <br> We hope to provide a voice for all who care about
-    these issues; inform, educate and support people throughout the county; and serve
-    as a hub for information, engagement and action.<br> <br> We act as a positive
-    partner and critical friend of Dorset and BCP Councils.
-- title: Our Core Values
-  description: " <b>Solution-Focused</b> - we will have a positive, practical approach.<br>
-    <br> <b>Leading by example</b> - to create a mass movement we need to lead by
-    example individually and collectively.<br> <br> <b>Openness, Humility and Respect</b>
-    - to be open, welcoming and respectful of others; be flexible enough to change;
-    be enquiring, always learning and open to debate; and to listen to one another
-    with respect and humility."
-- title: Community
-  description: Our community of <b>groups, families and individuals</b> aims to share
-    ideas, expertise and practical action to support communities to reduce their impact
-    on the environment and develop resilience.<br> <br> We aim to encourage and support
-    town and parish councils, wider community networks and the business sector to
-    work together to develop better community collaboration and resilience as we promote
-    our vision for Dorset.
-
+  - title: Mission
+    description: >-
+      Our mission is to build and sustain an open, accessible and flexible
+      network and alliance which puts climate and ecological awareness at the
+      heart of all decision-making.<br> <br> We hope to provide a voice for all
+      who care about these issues; inform, educate and support people throughout
+      the county; and serve as a hub for information, engagement and action.<br>
+      <br> We act as a positive partner and critical friend of Dorset and BCP
+      Councils.
+  - title: Our Core Values
+    description: ' <b>Solution-Focused</b> - we will have a positive, practical approach.<br> <br> <b>Leading by example</b> - to create a mass movement we need to lead by example individually and collectively.<br> <br> <b>Openness, Humility and Respect</b> - to be open, welcoming and respectful of others; be flexible enough to change; be enquiring, always learning and open to debate; and to listen to one another with respect and humility.'
+  - title: Community
+    description: >-
+      Our community of <b>groups, families and individuals</b> aims to share
+      ideas, expertise and practical action to support communities to reduce
+      their impact on the environment and develop resilience.<br> <br> We aim to
+      encourage and support town and parish councils, wider community networks
+      and the business sector to work together to develop better community
+      collaboration and resilience as we promote our vision for Dorset.
 storyEnable: true
 storyTitle: Our Story
 storyImage: images/logo/Dorset_CAN_Logo_Original.jpg
-ourStory: "<p><strong>We make connections!</strong></p><p>Dorset CAN works to inform,
-  help and encourage families, businesses and individuals across the county to 'do
-  their bit' to reduce their carbon footprint and minimise our contribution to the
-  climate and nature crisis. We also work to engage with and encourage Dorset Council
-  and BCP Council to 'do their bit' to make this happen.</p><p>We act as an umbrella
-  organisation to all the many climate and eco orientated groups across Dorset, providing
-  support where needed. Linking likeminded groups together our Network is always growing
-  and getting stronger.<br><br>Find out about our current campaigns, events across
-  Dorset, Action Teams, recent newsletters, updates, ideas, case studies, examples
-  and contacts. <br><br><strong>Above all, please join us</strong> - it's free and
-  you don't have to take an active part. The more members we have, the louder our
-  voice is and the more we can achieve. Stronger together!</p>"
-
+ourStory: >-
+  <p><strong>We make connections!</strong></p><p>Dorset CAN works to inform,
+  help and encourage families, businesses and individuals across the county to
+  'do their bit' to reduce their carbon footprint and minimise our contribution
+  to the climate and nature crisis. We also work to engage with and encourage
+  Dorset Council and BCP Council to 'do their bit' to make this happen.</p><p>We
+  act as an umbrella organisation to all the many climate and eco orientated
+  groups across Dorset, providing support where needed. Linking likeminded
+  groups together our Network is always growing and getting
+  stronger.<br><br>Find out about our current campaigns, events across Dorset,
+  Action Teams, recent newsletters, updates, ideas, case studies, examples and
+  contacts. <br><br><strong>Above all, please join us</strong> - it's free and
+  you don't have to take an active part. The more members we have, the louder
+  our voice is and the more we can achieve. Stronger together!</p>
 leadershipEnable: true
 leadershipTitle: Meet Us
-leadershipDescription: Dorset CANs Action Team - Committed to a more sustainable future
-  for Dorset
+leadershipDescription: Dorset CANs Action Team - Committed to a more sustainable future for Dorset
 leadershipPerson:
-- name: Andrew Carey
-  image: "/uploads/andrew-wborder.png"
-  designation: ''
-  description: Motivated to provide lively updates, news, events and activities to
-    inspire more community and council action on the climate crisis. Optimistic for
-    a cleaner, greener, fairer vision of our future Dorset.
-  email: andrew@westhay.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Belinda Bawden
-  image: "/uploads/belinda.png"
-  designation: ''
-  description: Motivated to share ideas and inspire action for a better, greener future.
-  email: belindabawden@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Tracee Cossey
-  image: "/uploads/tracee.png"
-  designation: Social Media
-  description: I have a background of press and public relations work starting off
-    in environment and transport. I am also a teacher and a complementary therapist.
-    I have a passion for environmental projects and social media. Motivated to always
-    be amid the action and particularly keen on climatic justice.
-  email: traceecossey@hotmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Vicki Elcoate
-  image: "/uploads/vicki.png"
-  designation: ''
-  description: Dedicated to action for the love of nature. I'm a journalist by training
-    and have worked in the environmental voluntary sector at a senior level for over
-    30 years. Taking care of our environment is about taking care of ourselves - if
-    we don't we are sawing off the branch we're sitting on. We are literally on the
-    brink of environmental chaos and we must do everything we can to stop that from
-    happening.
-  email: vicki.elcoate@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Giles Watts
-  image: "/uploads/giles.png"
-  designation: ''
-  description: 'I came to eco-activism late in my career having worked for may years
-    as a geophysicist in the Energy Industry. The science is clear that global warming
-    is taking place but I guess I thought that a bit more CO2 in the atmosphere would
-    help plants to grow and that a bit of extra warmth would not do too much harm.
-    I now know how wrong I was. The loss of the biodiversity is shocking and the speed
-    at which changes are happening is having a brutal impact on the whole world. It
-    is now up to all of us to do something, however small, to address the issues and
-    to try to protect the planet from the worst impacts of human expansion and climate
-    change. Each one of us really can all make a difference - especially at a local
-    level. '
-  email: wattsgft@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Julie Leah
-  image: "/uploads/julie-space-all-round.png"
-  designation: ''
-  description: ''
-  email: julie_leah@btinternet.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Jenny Morisetti
-  image: "/uploads/jenny.png"
-  designation: 'I am naturally reluctant to throw away anything that may one day be
-    useful, so renovating/ retrofitting old properties using the "reuse, recycle"
-    mantra suits me well. Concern for the environment and seeking like minded people
-    led me to Dorset CAN. It feels empowering to be part of a dynamic team working
-    towards "A greener, cleaner, Dorset."'
-  description: ''
-  email: dorsetcan@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Sandra Reeve
-  image: "/uploads/sandra.png"
-  designation: Main Coordinator & Zoom Training
-  description: I am a movement teacher, therapist and supervisor. I joined DorsetCAN
-    because I wanted to learn more about the effects of climate change and to find
-    out how I could lobby and take action to protect and support my community and
-    our beautiful environment.  Determined to make a difference in a climate and nature
-    emergency.
-  email: sandra@moveintolife.co.uk
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Alexandra Stephen
-  image: "/uploads/alex.png"
-  designation: ''
-  description: ''
-  email: dorsetcan@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Helen Sumbler
-  image: "/uploads/helen.png"
-  designation: ''
-  description: I have a keen interest in transport, being a 4th generation railway
-    worker, and I have spent my professional career as a Railway Signal Engineer.  I
-    believe that changing the way we move around is key to reducing our greenhouse
-    gas emissions - did you know that transport accounts for around a third of UK
-    / Dorset Council carbon emissions?  I am keen to do what I can to help reduce
-    this, while improving access to public transport and safe active travel not just
-    for recreation and tourism but as a viable alternative to private cars for travel
-    to work and education.  Travelling to our future destinations in a sustainable
-    way! Co-ordinating, motivating and inspiring expertise, collaboration and community
-    energy.
-  email: helens@planetpurbeck.org
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Colin Tracy
-  image: "/uploads/colin.png"
-  designation: ''
-  description: I love and am endlessly curious about the natural world. I see, and
-    feel acutely, the destruction we humans have caused and recognise that l have
-    a responsibility and duty to leave the planet in a better state for the next generation.
-    I also want to understand why we humans, despite knowing that the consequences
-    of our behaviour threaten our very existence, continue to treat the world and
-    all her resources with such self-centred contempt.
-  email: dorsetcan@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
-- name: Rob Waitt
-  image: "/uploads/rob.png"
-  designation: ''
-  description: Rob has been a supporter of environmental issues all his life but it
-    was the birth of his son that energised  him into doing something about it. He
-    is driven by the questions his son will ask in the future "Dad why didn''t you
-    do anything knowing what you knew!" Rob was attracted to Dorset CAN''s mission
-    of bringing the whole of Dorset together to take positive action to address Climate
-    Change locally. By being part of the Dorset CAN, Rob feels he can leave a positive
-    legacy for his son and community and be able to say to his son "I did something".
-  email: robwplanetpurbeck@gmail.com
-  facebook: ''
-  twitter: ''
-  linkedIn: ''
+  - name: Andrew Carey
+    image: /uploads/andrew-wborder.png
+    designation:
+    description: >-
+      Motivated to provide lively updates, news, events and activities to
+      inspire more community and council action on the climate crisis.
+      Optimistic for a cleaner, greener, fairer vision of our future Dorset.
+    email: andrew@westhay.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Belinda Bawden
+    image: /uploads/belinda.png
+    designation:
+    description: Motivated to share ideas and inspire action for a better, greener future.
+    email: belindabawden@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Tracee Cossey
+    image: /uploads/tracee.png
+    designation: Social Media
+    description: >-
+      I have a background of press and public relations work starting off in
+      environment and transport. I am also a teacher and a complementary
+      therapist. I have a passion for environmental projects and social media.
+      Motivated to always be amid the action and particularly keen on climatic
+      justice.
+    email: traceecossey@hotmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Vicki Elcoate
+    image: /uploads/vicki.png
+    designation:
+    description: >-
+      Dedicated to action for the love of nature. I'm a journalist by training
+      and have worked in the environmental voluntary sector at a senior level
+      for over 30 years. Taking care of our environment is about taking care of
+      ourselves - if we don't we are sawing off the branch we're sitting on. We
+      are literally on the brink of environmental chaos and we must do
+      everything we can to stop that from happening.
+    email: vicki.elcoate@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Giles Watts
+    image: /uploads/giles.png
+    designation:
+    description: >-
+      I came to eco-activism late in my career having worked for may years as a
+      geophysicist in the Energy Industry. The science is clear that global
+      warming is taking place but I guess I thought that a bit more CO2 in the
+      atmosphere would help plants to grow and that a bit of extra warmth would
+      not do too much harm. I now know how wrong I was. The loss of the
+      biodiversity is shocking and the speed at which changes are happening is
+      having a brutal impact on the whole world. It is now up to all of us to do
+      something, however small, to address the issues and to try to protect the
+      planet from the worst impacts of human expansion and climate change. Each
+      one of us really can all make a difference - especially at a local level. 
+    email: wattsgft@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Julie Leah
+    image: /uploads/julie-space-all-round.png
+    designation:
+    description:
+    email: julie_leah@btinternet.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Jenny Morisetti
+    image: /uploads/jenny.png
+    designation: >-
+      I am naturally reluctant to throw away anything that may one day be
+      useful, so renovating/ retrofitting old properties using the "reuse,
+      recycle" mantra suits me well. Concern for the environment and seeking
+      like minded people led me to Dorset CAN. It feels empowering to be part of
+      a dynamic team working towards "A greener, cleaner, Dorset."
+    description:
+    email: dorsetcan@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Sandra Reeve
+    image: /uploads/sandra.png
+    designation: Main Coordinator & Zoom Training
+    description: >-
+      I am a movement teacher, therapist and supervisor. I joined DorsetCAN
+      because I wanted to learn more about the effects of climate change and to
+      find out how I could lobby and take action to protect and support my
+      community and our beautiful environment.  Determined to make a difference
+      in a climate and nature emergency.
+    email: sandra@moveintolife.co.uk
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Alexandra Stephen
+    image: /uploads/alex.png
+    designation:
+    description: >-
+      I have a keen interest in protecting our county having grown up here, I
+      hold a deep love for the countryside, the nature and wildlife in it and
+      our wonderful coastline. My background is in Operation and Resources
+      Management along with Project Management experience. A born organiser and
+      systems person I am DorsetCANS Coordinator working behind the scenes
+      helping our Network grow, keeping us organised and focused. My love is
+      walking and exploring our beautiful county.
+    email: dorsetcan@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Helen Sumbler
+    image: /uploads/helen.png
+    designation:
+    description: >-
+      I have a keen interest in transport, being a 4th generation railway
+      worker, and I have spent my professional career as a Railway Signal
+      Engineer.  I believe that changing the way we move around is key to
+      reducing our greenhouse gas emissions - did you know that transport
+      accounts for around a third of UK / Dorset Council carbon emissions?  I am
+      keen to do what I can to help reduce this, while improving access to
+      public transport and safe active travel not just for recreation and
+      tourism but as a viable alternative to private cars for travel to work and
+      education.  Travelling to our future destinations in a sustainable way!
+      Co-ordinating, motivating and inspiring expertise, collaboration and
+      community energy.
+    email: helens@planetpurbeck.org
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Colin Tracy
+    image: /uploads/colin.png
+    designation:
+    description: >-
+      I love and am endlessly curious about the natural world. I see, and feel
+      acutely, the destruction we humans have caused and recognise that l have a
+      responsibility and duty to leave the planet in a better state for the next
+      generation. I also want to understand why we humans, despite knowing that
+      the consequences of our behaviour threaten our very existence, continue to
+      treat the world and all her resources with such self-centred contempt.
+    email: dorsetcan@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
+  - name: Rob Waitt
+    image: /uploads/rob.png
+    designation:
+    description: >-
+      Rob has been a supporter of environmental issues all his life but it was
+      the birth of his son that energised  him into doing something about it. He
+      is driven by the questions his son will ask in the future "Dad why didn''t
+      you do anything knowing what you knew!" Rob was attracted to Dorset CAN''s
+      mission of bringing the whole of Dorset together to take positive action
+      to address Climate Change locally. By being part of the Dorset CAN, Rob
+      feels he can leave a positive legacy for his son and community and be able
+      to say to his son "I did something".
+    email: robwplanetpurbeck@gmail.com
+    facebook:
+    twitter:
+    linkedIn:
