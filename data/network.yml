@@ -141,7 +141,7 @@ members:
     group: environment
     latitude: 50.8351
     longitude: -2.9809
-    popupText: Chardstock Eco Group
+    popupText:
   - name: Dorchester Town Council
     description: >-
       Dorchester's local authority.
